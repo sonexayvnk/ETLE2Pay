@@ -2816,7 +2816,7 @@ Button btn_submit_QrPay;
         strQrType = "QrPay";
         ClearTextEditQrPay();
         new IntentIntegrator(WalletActivity.this).setDesiredBarcodeFormats(IntentIntegrator.QR_CODE_TYPES).setCaptureActivity(ScannerActivity.class).initiateScan();
-
+//aaaaaa
         // Log.e("Active_valuesaa:",  "EasyAES.encryptString(Standard_info)");
         //  dialog("onClickQR",1);
        // Intent refresh1 = new Intent(getApplicationContext(), TestActivity.class);
