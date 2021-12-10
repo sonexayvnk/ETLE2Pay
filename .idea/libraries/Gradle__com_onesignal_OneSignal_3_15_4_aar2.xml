@@ -14,6 +14,7 @@
     <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/Library/Android/sdk/caches/modules-2/files-2.1/com.onesignal/OneSignal/3.15.4/f7183c39468acfdf29143323c6bae81a6740dbff/OneSignal-3.15.4-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.onesignal/OneSignal/3.15.4/f7183c39468acfdf29143323c6bae81a6740dbff/OneSignal-3.15.4-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

@@ -10,9 +10,11 @@
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/Library/Android/sdk/caches/modules-2/files-2.1/me.leolin/ShortcutBadger/1.1.22/8d181708c3d0b7cd93e7fbcb4467dae47603ee0b/ShortcutBadger-1.1.22-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/me.leolin/ShortcutBadger/1.1.22/8d181708c3d0b7cd93e7fbcb4467dae47603ee0b/ShortcutBadger-1.1.22-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/Library/Android/sdk/caches/modules-2/files-2.1/me.leolin/ShortcutBadger/1.1.22/614ef59fdccd8e121fa40ba7d454307025f8f0fe/ShortcutBadger-1.1.22-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/me.leolin/ShortcutBadger/1.1.22/614ef59fdccd8e121fa40ba7d454307025f8f0fe/ShortcutBadger-1.1.22-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

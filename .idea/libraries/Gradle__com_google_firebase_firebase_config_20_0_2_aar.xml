@@ -10,9 +10,11 @@
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/Library/Android/sdk/caches/modules-2/files-2.1/com.google.firebase/firebase-config/20.0.2/7bf58fe735ad69a970ea0d7cbf3d0f99dfce9159/firebase-config-20.0.2-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-config/20.0.2/7bf58fe735ad69a970ea0d7cbf3d0f99dfce9159/firebase-config-20.0.2-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/Library/Android/sdk/caches/modules-2/files-2.1/com.google.firebase/firebase-config/20.0.2/e00db8ea93cd7f465b5dff8d52d6e258bcba5b34/firebase-config-20.0.2-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-config/20.0.2/e00db8ea93cd7f465b5dff8d52d6e258bcba5b34/firebase-config-20.0.2-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

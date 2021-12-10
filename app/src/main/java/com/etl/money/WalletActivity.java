@@ -110,7 +110,6 @@ public class WalletActivity extends AppCompatActivity implements View.OnTouchLis
 
     private float oldXvalue;
     private float oldYvalue;
-
     CustomAdapter mAdapter;
     NotificationSQLiteAdapter helper;
     // String etlPreFix = "(202|302|202|203|202).*";
@@ -2814,12 +2813,14 @@ Button btn_submit_QrPay;
     }
     public void onClickQRPay2(View v) throws Exception {
       //  strQrType = "QrPay";
-      //  ClearTextEditQrPay();
-       // new IntentIntegrator(WalletActivity.this).setDesiredBarcodeFormats(IntentIntegrator.QR_CODE_TYPES).setCaptureActivity(ScannerActivity.class).initiateScan();
+        strQrType = "QrPay";
+        ClearTextEditQrPay();
+        new IntentIntegrator(WalletActivity.this).setDesiredBarcodeFormats(IntentIntegrator.QR_CODE_TYPES).setCaptureActivity(ScannerActivity.class).initiateScan();
+
         // Log.e("Active_valuesaa:",  "EasyAES.encryptString(Standard_info)");
         //  dialog("onClickQR",1);
-        Intent refresh1 = new Intent(getApplicationContext(), TestActivity.class);
-        startActivity(refresh1);
+       // Intent refresh1 = new Intent(getApplicationContext(), TestActivity.class);
+       // startActivity(refresh1);
     }
     @Override
     protected void onResume() {
