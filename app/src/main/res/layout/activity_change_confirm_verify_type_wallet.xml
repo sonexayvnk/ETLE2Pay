@@ -1,0 +1,167 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+
+    android:layout_gravity="center"
+
+    tools:context="com.etl.money.ChangeConfirmVerifyTypeWalletActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+
+            android:layout_gravity="center"
+            android:paddingLeft="10dp"
+            android:id="@+id/txtVerifyTitle"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/color_blue_facebook"
+            android:gravity="center"
+            android:text="Change To One time OTP"
+            android:textSize="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+
+            android:layout_gravity="center"
+            android:paddingLeft="10dp"
+            android:id="@+id/txtmsisdn"
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:background="@drawable/text_border_stype_select"
+            android:layout_marginTop="16dp"
+            android:hint="20xxxxxxxx"
+
+            android:inputType="number"
+            android:maxLength="10"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <EditText
+            android:id="@+id/txt_old_password"
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/txtmodify_code"
+
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+
+            android:background="@drawable/text_border_stype"
+
+
+            android:hint="@string/str_enter_old_password"
+            android:inputType="textPassword"
+            android:maxLength="20"
+            android:paddingLeft="10dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="20dp" />
+        <EditText
+
+            android:id="@+id/txtVerifyCode"
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/txtmsisdn"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/text_border_stype"
+
+
+            android:hint="@string/str_modify_code"
+            android:inputType="number"
+            android:maxLength="10"
+            android:paddingLeft="10dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/txtnew_password"
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/txtmodify_code"
+
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+
+            android:background="@drawable/text_border_stype"
+
+
+            android:hint="@string/str_new_password"
+            android:inputType="textPassword"
+            android:maxLength="20"
+            android:paddingLeft="10dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="20dp" />
+
+        <EditText
+
+            android:inputType="textPassword"
+            android:paddingLeft="10dp"
+            android:background="@drawable/text_border_stype"
+            android:layout_height="45dp"
+
+            android:textSize="20dp"
+            android:layout_width="250dp"
+            android:maxLength="20"
+            android:layout_gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/txtconfirm_password"
+
+            android:hint="@string/str_confirm_password"
+
+            android:layout_marginTop="27dp"
+            android:layout_below="@+id/txtnew_password"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:id="@+id/btnChangeConfirmVerifyType"
+            style="@style/btnStyleBeige"
+            android:layout_width="214dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtconfirm_password"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="29dp"
+            android:onClick="onClickChangeConfirmVerifyType"
+
+            android:text="@string/str_sent_modify_code_to_sms"
+            android:textSize="20dp" />
+
+        <TextView
+
+            android:id="@+id/txt_sms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/btnresetpassword"
+            android:layout_marginTop="49dp"
+            android:layout_gravity="center"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+
+</RelativeLayout>

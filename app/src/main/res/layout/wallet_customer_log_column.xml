@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <androidx.cardview.widget.CardView
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="@dimen/margin_xsmall"
+        android:layout_marginBottom="@dimen/margin_xsmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        app:cardCornerRadius="10dp">
+
+        <LinearLayout
+            android:id="@+id/LinearLayoutCustomerLog"
+            android:layout_marginLeft="@dimen/margin_small"
+            android:layout_marginTop="@dimen/margin_xxsmall"
+            android:layout_marginBottom="@dimen/margin_xxsmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center" >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:background="@color/colorOrange"
+                    android:textStyle="bold"
+                    android:id="@+id/txtCirclesTitle"
+                    android:layout_width="@dimen/Circles"
+                    android:layout_height="@dimen/Circles"
+                    android:layout_below="@+id/View1"
+                    android:gravity="center"
+                    android:radius="10dip"
+                    android:text="AEC"
+                    android:textColor="#FFFFFF"
+                    android:textSize="@dimen/margin_xlarge" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_marginLeft="@dimen/margin_small"
+                android:layout_marginTop="@dimen/margin_xlarge"
+                android:layout_marginBottom="@dimen/margin_xlarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center" >
+
+                <TextView
+                    android:layout_weight="7"
+                    android:id="@+id/txtTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/text_higth_normall"
+                    android:gravity="left"
+                    android:text="ID"
+                    android:layout_marginLeft="@dimen/margin_xsmall"
+                    android:textSize="@dimen/text_size_small"/>
+                <TextView
+                    android:layout_marginLeft="@dimen/margin_xsmall"
+                    android:layout_weight="5"
+                    android:text="Name"
+                    android:id="@+id/txtDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/text_higth_small"
+                    android:gravity="left"
+                    android:layout_marginRight="@dimen/margin_xsmall"
+                    android:textSize="@dimen/text_size_small" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/btnDel"
+                    android:layout_weight="10"
+                    android:background="@mipmap/ic_del"
+                    android:layout_width="@dimen/text_view_higth"
+                    android:layout_height="@dimen/text_view_higth"
+                    android:gravity="right"
+                    android:layout_marginRight="@dimen/margin_xsmall"/>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

@@ -1,0 +1,127 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <ScrollView
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_weight="1">
+    </ScrollView>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_marginTop="@dimen/margin_large"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/lg_changed"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/language_icon"
+            android:layout_gravity="right"
+            android:layout_marginRight="20dp"
+            android:paddingStart="0dp"
+            android:paddingEnd="20dp" />
+
+        <TextView
+
+            android:layout_width="269dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="ETL Money"
+            android:textColor="@color/color_blue_facebook"
+            android:textSize="@dimen/text_higth_xlarg" />
+        <ImageView
+
+            android:id="@+id/image1"
+            android:layout_width="100dp"
+            android:text="ETL Money"
+            android:gravity="center"
+            android:layout_height="100dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="393dp"
+        android:layout_height="659dp"
+        android:layout_marginLeft="@dimen/margin_xxlarge"
+        android:layout_marginRight="@dimen/margin_xxlarge"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="30dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_xxlarge"
+            android:layout_marginRight="@dimen/margin_xxlarge"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:hintTextAppearance="@style/MyHintText">
+
+            <EditText
+                android:id="@+id/txtUserName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/str_user_name"
+                android:maxLength="32"
+                android:theme="@style/MyEditText" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_xxlarge"
+            android:layout_marginRight="@dimen/margin_xxlarge"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/textPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/pass_hint"
+                android:inputType="textPassword"
+                android:maxLength="32"
+                android:theme="@style/MyEditText" />
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="@dimen/margin_xxlarge"
+        android:layout_marginRight="@dimen/margin_xxlarge"
+        android:layout_marginBottom="@dimen/margin_normall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+    <LinearLayout
+        android:layout_marginLeft="@dimen/margin_xxlarge"
+        android:layout_marginRight="@dimen/margin_xxlarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:onClick="onClickLogin"
+            android:text="@string/login_button"
+            android:layout_marginRight="@dimen/margin_normall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+        <Button
+            android:onClick="onClickCancel"
+            android:text="@string/str_cancel"
+            android:layout_marginLeft="@dimen/margin_normall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

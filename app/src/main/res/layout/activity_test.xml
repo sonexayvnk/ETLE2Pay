@@ -1,0 +1,27 @@
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.etl.money.TestActivity">
+    <RelativeLayout
+        android:id="@+id/my_relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<TextView
+android:layout_marginTop="50dp"
+    android:layout_marginLeft="100dp"
+    android:id="@+id/txt"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+</TextView>
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="@dimen/layout_height_xxlarge"
+                android:layout_height="@dimen/layout_height_xxlarge"
+                android:background="@drawable/qr_circle_background"
+                android:onClick="onClickQRPay23"
+                app:srcCompat="@drawable/qr_pay_floating_action2" />
+    </RelativeLayout>
+</RelativeLayout>

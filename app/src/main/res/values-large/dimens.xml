@@ -1,0 +1,95 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_horizontal_margin8">8dp</dimen>
+    <dimen name="activity_vertical_margin8">8dp</dimen>
+    <dimen name="activity_pading_2dp">2dp</dimen>
+    <dimen name="tab_text_size">20sp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+
+    <dimen name="text_size_small_than">15sp</dimen>
+    <dimen name="text_size_small_specail_icon">20sp</dimen>
+    <dimen name="text_size_small_than_1">12sp</dimen>
+
+
+    <dimen name="text_size_khem_small_sub_title">12sp</dimen>
+
+    <!--Layout =20sp-->
+    <!--Small= (no set text size) sp-->
+    <!--Normal= 20sp-->
+    <!--600 use  Normal-->
+    <!--Large=35sp-->
+    <!--Xlarge= 40sp-->
+    <dimen name="footer_height">45dp</dimen>
+    <dimen name="footer_marginBottom_TouchImageView">56dp</dimen>
+
+    <dimen name="text_size_khem">20sp</dimen>
+
+    <dimen name="layout_height">52dp</dimen>
+    <dimen name="layout_height_small">45dp</dimen>
+    <dimen name="layout_height_normall">52dp</dimen>
+    <dimen name="layout_height_large">60dp</dimen>
+    <dimen name="layout_height_xlarge">65dp</dimen>
+    <dimen name="layout_height_xxlarge">70dp</dimen>
+    <dimen name="text_box_width_horizon_single">300sp</dimen>
+    <dimen name="button_width_horizon_single">150sp</dimen>
+    <dimen name="text_view_higth">35sp</dimen>
+    <dimen name="text_view_length">300sp</dimen>
+    <dimen name="text_size_khem_small">18sp</dimen>
+
+    <dimen name="text_size_khem_smalless">16sp</dimen>
+
+    <dimen name="text_size">20sp</dimen>
+
+    <dimen name="Circles">50sp</dimen>
+    <!--Text Size-->
+    <dimen name="text_size_xxxsmall">9sp</dimen>
+    <dimen name="text_size_xxsmall">12sp</dimen>
+    <dimen name="text_size_xsmall">15sp</dimen>
+    <dimen name="text_size_small">18sp</dimen>
+    <dimen name="text_size_normall">20sp</dimen>
+    <dimen name="text_size_large">22sp</dimen>
+    <dimen name="text_size_xlarge">25sp</dimen>
+    <dimen name="text_size_dashboar">14sp</dimen>
+    <!--Text Higth-->
+    <dimen name="text_higth_xsmall">20sp</dimen>
+    <dimen name="text_higth_small">23sp</dimen>
+    <dimen name="text_higth_normall">25sp</dimen>
+    <dimen name="text_higth_large">27sp</dimen>
+    <dimen name="text_higth_xlarg">30sp</dimen>
+    <!--Margin-->
+    <dimen name="margin_xxsmall">2sp</dimen>
+    <dimen name="margin_xsmall">5sp</dimen>
+    <dimen name="margin_small">7sp</dimen>
+    <dimen name="margin_normall">10sp</dimen>
+    <dimen name="margin_large">12sp</dimen>
+    <dimen name="margin_xlarge">15sp</dimen>
+    <dimen name="margin_xxlarge">18sp</dimen>
+    <dimen name="margin_left_and_right_package_data_row">30sp</dimen>
+    <dimen name="margin_left_and_right_dashboard">10sp</dimen>
+
+    <dimen name="circle_size">50sp</dimen>
+    <dimen name="button_width_for_rigister">70dp</dimen>
+    <dimen name="paddingLeft">35dp</dimen>
+    <dimen name="paddingLeft_shadow">35dp</dimen>
+
+    <dimen name="LinearLayout_dealer_higth">90dp</dimen>
+
+
+    <dimen name="button_width_small">120sp</dimen>
+    <dimen name="button_width_normall">180sp</dimen>
+    <dimen name="button_width_large">250sp</dimen>
+
+    <dimen name="pie_chart_circle_size">185dp</dimen>
+    <dimen name="pie_chart_circle_higth">175dp</dimen>
+
+    <dimen name="dashboard_icon_width_higth">118sp</dimen>
+
+    <dimen name="dashboard_icon_text_padding_top">68sp</dimen>
+
+
+    <dimen name="test_diment">3sp</dimen>
+</resources>

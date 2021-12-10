@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="0dp"
+            android:paddingBottom="0dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:paddingTop="0dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+            <LinearLayout
+
+                android:id="@+id/relative1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="right|bottom"
+                android:orientation="vertical"
+                android:padding="0dp"
+                android:paddingBottom="0dp"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:weightSum="1">
+                <ScrollView
+                    android:id="@+id/scrollView28"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fillViewport="false">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:layout_marginRight="@dimen/margin_xxlarge"
+                            android:layout_marginLeft="@dimen/margin_xxlarge"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/txtCirclesTitle"
+                                android:layout_width="@dimen/Circles"
+                                android:layout_height="@dimen/Circles"
+                                android:layout_below="@+id/View1"
+                                android:layout_marginLeft="@dimen/margin_large"
+                                android:layout_marginTop="@dimen/margin_normall"
+                                android:layout_marginBottom="@dimen/margin_normall"
+                                android:gravity="center"
+
+                                android:radius="10dip"
+                                android:text="AEC"
+                                android:textColor="#FFFFFF"
+                                android:textSize="@dimen/margin_xlarge"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/txtSubject"
+                                android:layout_marginTop="@dimen/margin_xsmall"
+                                android:layout_marginLeft="@dimen/margin_normall"
+                                android:layout_width="340dp"
+                                android:layout_height="wrap_content"
+                                android:textColor="#242323"
+
+                                android:layout_below="@+id/View1"
+                                android:textSize="@dimen/text_size_xlarge"
+                                android:layout_toEndOf="@+id/txtCirclesTitle"
+                                android:layout_toRightOf="@+id/txtCirclesTitle"
+
+                                android:text="subject"
+                                />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginRight="@dimen/margin_xxlarge"
+                            android:layout_marginLeft="@dimen/margin_xxlarge"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:orientation="vertical">
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@drawable/wallet_line_style_height"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="@string/str_wallet_account"
+                                android:textSize="@dimen/text_size_xsmall" />
+                            <TextView
+                                android:layout_marginTop="@dimen/margin_small"
+
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/txtWalleteAccount"
+                                android:text="Text"
+                                android:textColor="@color/color_black"
+                                android:textSize="@dimen/text_size_normall"  />
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@drawable/wallet_line_style_height"/>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_marginRight="@dimen/margin_xxlarge"
+                            android:layout_marginLeft="@dimen/margin_xxlarge"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:orientation="vertical">
+         <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="@string/str_description"
+                                android:textSize="@dimen/text_size_xsmall" />
+                            <TextView
+                                android:layout_marginTop="@dimen/margin_small"
+
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/txtDescription"
+                                android:text="Text"
+                                android:textColor="@color/color_black"
+                                android:textSize="@dimen/text_size_normall"  />
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@drawable/wallet_line_style_height"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginRight="@dimen/margin_xxlarge"
+                            android:layout_marginLeft="@dimen/margin_xxlarge"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:orientation="vertical">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="@string/str_date"
+                                android:textSize="@dimen/text_size_xsmall" />
+                            <TextView
+                                android:layout_marginTop="@dimen/margin_small"
+
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/txtDatetine"
+                                android:text="Text"
+                                android:textColor="@color/color_black"
+                                android:textSize="@dimen/text_size_xsmall"  />
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@drawable/wallet_line_style_height"  />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_marginRight="@dimen/margin_xxlarge"
+                            android:layout_marginLeft="@dimen/margin_xxlarge"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:orientation="vertical">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="@string/str_amount"
+                                android:textSize="@dimen/text_size_xsmall" />
+                            <TextView
+                                android:layout_marginTop="@dimen/margin_small"
+
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/txtAmount"
+                                android:text="Text"
+                                android:textColor="@color/color_black"
+                                android:textSize="@dimen/text_size_xlarge"  />
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@drawable/wallet_line_style_height"/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_marginRight="@dimen/margin_xxlarge"
+                            android:layout_marginLeft="@dimen/margin_xxlarge"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:orientation="vertical">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="@string/str_detail"
+                                android:textSize="@dimen/text_size_xsmall" />
+                            <TextView
+                                android:layout_marginTop="@dimen/margin_small"
+
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/txtDetail"
+                                android:text="Text"
+                                android:textColor="@color/color_black"
+                                android:textSize="@dimen/text_size_normall"  />
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@drawable/wallet_line_style_height" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </ScrollView>
+                <!--</RadioGroup>-->
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.etl.money">
+
+    <dist:module dist:instant="true" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" /> <!-- <uses-permission android:name="android.permission.READ_CONTACTS" /> -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- Step 1: Add the following permission to the app -->
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:name=".notification.NotificationOneSignal"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Test2Activity"
+            android:exported="true" />
+        <activity
+            android:name=".config.ResetPasswordActivity"
+            android:exported="true" />
+        <activity
+            android:name=".cash.MerchantTransferToEnduserActivity"
+            android:exported="true" />
+        <activity
+            android:name=".cash.AgentApproveCashoutOfMerchantActivity"
+            android:exported="true" />
+        <activity
+            android:name=".cash.MerchantCashOutRequestActivity"
+            android:exported="true" />
+        <activity
+            android:name=".register.PolicyActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".cash.ChooseCashOutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".cash.ChooseCashInActivity"
+            android:exported="true" />
+        <activity
+            android:name=".promotion_and_advertising.UplodeRegPhotoActivity"
+            android:exported="true" />
+        <activity
+            android:name=".register.RegisterViaKycActivity"
+            android:exported="true" />
+        <activity
+            android:name=".promotion_and_advertising.ChooseImagesFromGalleryActivity"
+            android:exported="true" />
+        <activity
+            android:name=".promotion_and_advertising.PromotionActivity"
+            android:exported="true" />
+        <activity
+            android:name=".promotion_and_advertising.CreateAdvertisingActivity"
+            android:exported="true" />
+        <activity
+            android:name=".setting.MerchantSettingActivity"
+            android:exported="true" />
+        <activity
+            android:name=".setting.AgentSettingActivity"
+            android:exported="true" />
+        <activity
+            android:name=".register.RegisterNewMerchantActivity"
+            android:exported="true" />
+        <activity
+            android:name=".register.RegisterNewAgentActivity"
+            android:exported="true" />
+        <activity
+            android:name=".cash.AutoGenerateQRCode"
+            android:exported="true" />
+        <activity android:name=".cash.AgentCashOutApproveActivity" />
+        <activity android:name=".cash.EndUserCashOutRequestActivity" />
+        <activity android:name=".cash.AgentCashInApproveActivity" />
+        <activity android:name=".cash.EndUserCashInRequestActivity" />
+        <activity android:name=".partner.SelectBranchActivity" />
+        <activity android:name=".partner.PaymentsActivity" />
+        <activity android:name=".OtherOrganization.PaymentsOtherOrganizationsActivity" />
+        <activity android:name=".setting.EditProfilePhotoActivity" />
+        <activity android:name=".setting.UpdateProfilePhotoActivity" />
+        <activity android:name=".register.TakePhotosActivity" />
+        <activity android:name=".setting.BalanceInfoActivity" />
+        <activity android:name=".setting.AgentBalanceInfoActivity" />
+        <activity android:name=".setting.MerchantBalanceInfoActivity" />
+        <activity android:name=".register.RegisterActivity" />
+        <activity android:name=".fingerprint.FingerprintActivity" />
+        <activity android:name=".notification.NotificationDetailActivity" />
+        <activity android:name=".notification.NotificationListActivity">
+
+            <!-- android:launchMode="singleInstance" -->
+            <!-- android:launchMode="singleTop" -->
+        </activity>
+        <activity android:name=".config.QrCodeScanInGalleryActivity" />
+        <activity android:name=".TestActivity" />
+        <activity android:name=".PackageData.PackageDataActivity" />
+        <activity android:name=".setting.SMSSettingActivity" />
+        <activity android:name=".setting.SettingActivity" />
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".WalletActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ChangeConfirmVerifyTypeWalletActivity" />
+        <activity android:name=".history.HistoryWalletDetailActivity" />
+        <activity android:name=".promotion_and_advertising.PromotionDetailActivity" />
+        <activity android:name=".history.HistoryWalletActivity" />
+        <activity android:name=".history.AgentHistoryWalletActivity" />
+        <activity android:name=".history.MerchantHistoryWalletActivity" />
+        <activity android:name=".change_passwor.ChangePasswordWalletActivity" />
+        <activity android:name=".setting.UserWalletInfoActivity" />
+        <activity
+            android:name=".config.QrCodeActivity"
+            android:label="@string/title_my_qre" />
+        <activity
+            android:name=".config.MerchantQrCodeActivity"
+            android:label="@string/title_merchant_qre" />
+        <activity android:name=".setting.SelectAccountTypeActivity" />
+        <activity android:name=".MsdnHistoryActivity" />
+        <activity android:name=".config.ScannerActivity" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.onesignal.NotificationOpened.DEFAULT"
+            android:value="DISABLE" />
+    </application>
+
+</manifest>

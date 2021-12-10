@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="0dp"
+            android:paddingBottom="0dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:paddingTop="0dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rdMainBalance"
+                    android:layout_width="40sp"
+                    android:layout_height="40sp"
+                    android:layout_below="@+id/txtSubmumber"
+                    android:layout_column="0"
+                    android:layout_row="0"
+                    android:checked="true"
+                    android:gravity="top"
+                    android:text=""
+                    android:textSize="18dp" />
+                <TextView
+                    android:textColor="@color/color_header_footer"
+                    android:id="@+id/txtMainBalance"
+                    android:layout_width="300dp"
+                    android:layout_height="@dimen/text_view_higth"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="0sp"
+                    android:paddingTop="2sp"
+                    android:text="@string/str_main_balance_wallet"
+                    android:textSize="@dimen/tab_text_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/margin_large"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rdSubBalance"
+                    android:layout_width="40sp"
+                    android:layout_height="40sp"
+                    android:layout_below="@+id/txtSubmumber"
+                    android:layout_column="0"
+                    android:layout_row="0"
+                    android:gravity="top"
+                    android:text=""
+                    android:textSize="18dp" />
+                <TextView
+                    android:textColor="@color/color_header_footer"
+                    android:id="@+id/txtSubBalance"
+                    android:layout_width="300dp"
+                    android:layout_height="@dimen/text_view_higth"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="0sp"
+                    android:paddingTop="2sp"
+                    android:text="@string/str_sub_balance_wallet"
+                    android:textSize="@dimen/tab_text_size" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+        <Button
+            android:onClick="onClickSaveAccType"
+            android:text="@string/str_save_and_close"
+            style="@style/btnStyleBeige"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+</RelativeLayout>

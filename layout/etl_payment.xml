@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:paddingTop="30sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_marginBottom="@dimen/margin_xlarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <EditText
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/text_size_small"
+                android:background="@drawable/text_shadow_boder_sky"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/layout_height_xxlarge"
+
+                android:paddingBottom="@dimen/margin_large"
+                android:gravity="center"
+
+
+                android:digits="0,1,2,3,4,5,6,7,8,9,QWERTYUIOPASDFGHJKLZXCVBNM,qwertyuiopasdfghjklzxcvbnm"
+                android:inputType="text"
+                android:id="@+id/txtCustomerID"
+                android:hint="@string/str_customer_id"
+                android:maxLength="20"
+               />
+
+            <TextView
+                android:textSize="@dimen/text_size_small"
+                android:background="@drawable/text_shadow_boder_sky"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/layout_height_xxlarge"
+
+                android:paddingBottom="@dimen/margin_large"
+                android:gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+
+                android:id="@+id/txtCustomerName"
+                android:hint="@string/str_name"
+                android:inputType="phone"
+                android:maxLength="100"
+                android:text="" />
+
+            <TextView
+                android:textSize="@dimen/text_size_small"
+                android:background="@drawable/text_shadow_boder_sky"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/layout_height_xxlarge"
+
+                android:paddingBottom="@dimen/margin_large"
+                android:gravity="center"
+
+                android:textColor="@color/colorPrimaryDark"
+
+                android:id="@+id/txtPendingAmount"
+                android:hint="@string/str_pending_amount"
+                android:inputType="phone"
+                android:maxLength="100"
+                android:text="" />
+            <EditText
+                android:textSize="@dimen/text_size_small"
+                android:background="@drawable/text_shadow_boder_sky"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/layout_height_xxlarge"
+                android:textColor="@color/colorPrimaryDark"
+                android:paddingBottom="@dimen/margin_large"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+
+                android:id="@+id/txtEnterPaymentAmount"
+                android:hint="@string/str_enter_payment_amount"
+
+                android:maxLength="18"
+                android:text="" />
+            <EditText
+                android:textSize="@dimen/text_size_small"
+                android:background="@drawable/text_shadow_boder_sky"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/layout_height_xxlarge"
+
+                android:paddingBottom="@dimen/margin_large"
+                android:gravity="center"
+                android:id="@+id/txtEnterEtlPaymentVerifycode"
+                android:hint="@string/str_modifiy_code"
+                android:inputType="numberPassword"
+                android:maxLength="10"
+                android:text="" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:orientation="horizontal">
+
+            <Button
+                android:onClick="onClickEtlPaymentConfirm"
+                android:id="@+id/btnEtlPaymentQuery"
+                android:textSize="@dimen/text_size_small"
+                android:background="@drawable/buuton_shadow_body_orang"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/layout_height_large"
+                android:layout_marginLeft="@dimen/margin_xlarge"
+                android:textAllCaps="false"
+                android:paddingBottom="@dimen/margin_large"
+
+                android:textColor="@color/color_white"
+                android:layout_gravity="center"
+
+
+                android:layout_weight="1"
+                android:text="@string/str_submit_query" />
+
+            <Button
+                android:textSize="@dimen/text_size_small"
+                android:background="@drawable/buuton_shadow_body_light_green"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/layout_height_large"
+android:textAllCaps="false"
+                android:layout_marginRight="@dimen/margin_xlarge"
+                android:paddingBottom="@dimen/margin_large"
+
+
+
+                android:id="@+id/btnEtlPaymentSubmit"
+
+                android:layout_gravity="center"
+                android:textColor="@color/color_white"
+                android:onClick="onClickEtlPaymentConfirm"
+                android:layout_weight="1"
+                android:text="@string/str_submit" />
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

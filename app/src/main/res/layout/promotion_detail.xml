@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:layout_marginLeft="@dimen/margin_normall"
+    android:layout_marginTop="@dimen/margin_normall"
+    android:layout_marginRight="@dimen/margin_normall"
+    android:layout_marginBottom="@dimen/margin_normall">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <com.etl.money.promotion_and_advertising.TouchImageView
+                android:id="@+id/full_image_view"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/profile" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/txtDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:inputType="textMultiLine"
+            android:paddingLeft="10dp"
+            android:scrollHorizontally="false"
+            android:text="Description"
+            android:textSize="@dimen/text_size_normall" />
+
+    </LinearLayout>
+
+</RelativeLayout>

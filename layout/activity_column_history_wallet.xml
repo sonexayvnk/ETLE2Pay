@@ -1,0 +1,141 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/rounded_corner"
+        android:id="@+id/txtMonthly"
+        android:layout_width="match_parent"
+        android:layout_height="31dp"
+        android:layout_below="@+id/view3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+
+        android:layout_marginEnd="0dp"
+
+        android:textSize="@dimen/text_size_normall"
+        android:layout_toStartOf="@+id/txtAmount"
+        android:layout_toLeftOf="@+id/txtAmount"
+        android:ems="10"
+        android:gravity="right"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+
+        android:text="Month"
+
+        android:textColor="#00ae34"
+
+        android:textStyle="bold" />
+    <View
+        android:layout_below="@+id/txtMonthly"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:id="@+id/View1"
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="#9b9a9a" />
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/txtCirclesTitle"
+        android:layout_width="@dimen/Circles"
+        android:layout_height="@dimen/Circles"
+        android:layout_below="@+id/View1"
+        android:layout_marginLeft="@dimen/margin_large"
+        android:layout_marginTop="@dimen/margin_normall"
+
+        android:gravity="center"
+        android:radius="10dip"
+        android:text="AEC"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/margin_xlarge" />
+
+    <TextView
+        android:id="@+id/txtSubject"
+        android:layout_marginTop="@dimen/margin_xsmall"
+        android:layout_marginLeft="@dimen/margin_normall"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:textColor="#242323"
+
+        android:layout_below="@+id/View1"
+        android:textSize="@dimen/text_size_small"
+        android:layout_toEndOf="@+id/txtCirclesTitle"
+        android:layout_toRightOf="@+id/txtCirclesTitle"
+
+        android:text="subject"
+        />
+
+    <TextView
+
+        android:layout_marginTop="@dimen/margin_xsmall"
+
+        android:id="@+id/txtAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtDescriptiontitle"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+
+        android:ems="10"
+        android:layout_below="@+id/View1"
+        android:gravity="right"
+        android:inputType="textPersonName"
+        android:paddingRight="10dp"
+        android:text="10,000"
+        android:textColor="#dc0027"
+        android:textSize="@dimen/text_size_small"/>
+
+    <TextView
+        android:layout_marginTop="@dimen/margin_xsmall"
+        android:layout_toEndOf="@+id/txtCirclesTitle"
+        android:layout_toRightOf="@+id/txtCirclesTitle"
+        android:layout_marginLeft="@dimen/margin_normall"
+
+        android:onClick="onClickHistoryID"
+
+        android:scrollHorizontally="false"
+        android:id="@+id/txtDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:layout_below="@+id/txtSubject"
+
+        android:ems="10"
+        android:gravity="left"
+        android:inputType="textMultiLine"
+
+        android:text="Description"
+        android:textColor="#868686"
+        android:textSize="@dimen/text_size_xsmall"/>
+
+    <TextView
+
+        android:id="@+id/txtDatetine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtDescriptiontitle"
+
+        android:layout_alignParentRight="true"
+
+        android:ems="10"
+        android:layout_below="@+id/txtDescription"
+        android:gravity="right"
+        android:inputType="textPersonName"
+        android:paddingRight="10dp"
+        android:text="Date"
+        android:textColor="#868686"
+        android:layout_marginBottom="@dimen/margin_normall"
+        android:textSize="@dimen/text_size_xsmall"/>
+</RelativeLayout>

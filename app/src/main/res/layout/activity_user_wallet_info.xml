@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+
+
+    android:layout_weight="0.1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center|top" >
+        <ImageView
+            android:src="@drawable/profile"
+            android:id="@+id/imgProfile"
+            android:layout_marginTop="@dimen/margin_xxsmall"
+            android:layout_marginBottom="@dimen/margin_xxsmall"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:gravity="center" />
+        <ListView
+            android:id="@+id/listView1"
+            android:divider="@null"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </ListView>
+    </LinearLayout>
+
+
+</LinearLayout>

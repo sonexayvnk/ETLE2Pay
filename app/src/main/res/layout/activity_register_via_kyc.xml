@@ -1,0 +1,152 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:id="@+id/linear1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_xxlarge"
+                android:layout_marginBottom="@dimen/margin_small"
+                android:text="@string/str_mobile_number"
+                android:textSize="@dimen/text_size_khem" />
+
+            <EditText
+                android:id="@+id/txtMobileNumber"
+
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/layout_height"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/text_border_stype"
+                android:ems="10"
+                android:hint="@string/number_display_hint"
+                android:inputType="number"
+                android:lines="1"
+                android:maxLength="10"
+                android:padding="10dp"
+                android:textSize="@dimen/text_size_khem" />
+            <TextView
+                android:id="@+id/txtRequestIDView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_large"
+
+                android:text="@string/str_kyc_id"
+                android:textSize="@dimen/text_size_khem" />
+
+            <TextView
+                android:id="@+id/txtRequestID"
+                android:layout_width="match_parent"
+
+                android:background="@drawable/text_border_stype"
+
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_large"
+                android:layout_marginBottom="@dimen/margin_small"
+
+                android:textSize="@dimen/text_size_khem" />
+            <TextView
+                android:id="@+id/txtStatusView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_large"
+
+                android:text="@string/str_status"
+                android:textSize="@dimen/text_size_khem" />
+
+            <TextView
+                android:id="@+id/txtStatus"
+                android:layout_width="match_parent"
+
+                android:background="@drawable/text_border_stype"
+
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_large"
+                android:layout_marginBottom="@dimen/margin_small"
+
+                android:textSize="@dimen/text_size_khem" />
+
+            <LinearLayout
+
+                android:id="@+id/linear2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioGroup
+                    android:id="@+id/radioSex"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:id="@+id/linear79"
+                        android:layout_width="351dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                    </LinearLayout>
+                </RadioGroup>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:id="@+id/linear3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <Button
+                    android:id="@+id/btnRegister"
+                    android:layout_width="@dimen/button_width_large"
+
+                    android:layout_height="@dimen/layout_height_normall"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/margin_normall"
+                    android:layout_weight="1"
+
+
+                    android:background="@drawable/button_stye_v1"
+
+                    android:gravity="center"
+
+                    android:text="@string/str_query_from_kyc"
+
+                    android:textAllCaps="false"
+                    android:textColor="@color/color_white"
+
+                    android:textSize="@dimen/text_size_small"
+      />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

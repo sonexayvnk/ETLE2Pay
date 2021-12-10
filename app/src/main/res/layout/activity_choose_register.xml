@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="10dip"
+    android:layout_marginRight="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/str_register"
+        android:textColor="@color/color_header_footer"
+        android:textSize="@dimen/text_size_normall"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="#6B6F6E" />
+    <LinearLayout
+        android:id="@+id/popup"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">/>
+
+        <ImageView
+            android:id="@+id/imgRegisterE2Pay"
+
+            android:background="@drawable/img_border_stype"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/margin_small"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ic_e2pay" />
+        <ImageView
+            android:id="@+id/imgRegisterKyc"
+            android:background="@drawable/img_border_stype"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/margin_small"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ic_kcy" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">/>
+
+        <TextView
+            android:textColor="@color/color_black"
+            android:textSize="@dimen/text_size_dashboar"
+            android:gravity="center|top"
+            android:text="@string/str_register_via_e2Pay"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/margin_xxsmall"
+            android:adjustViewBounds="true" />
+        <TextView
+            android:textColor="@color/color_black"
+            android:textSize="@dimen/text_size_dashboar"
+            android:gravity="center|top"
+            android:text="@string/str_register_via_kyc"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_xxsmall"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ic_kcy" />
+    </LinearLayout>
+</LinearLayout>

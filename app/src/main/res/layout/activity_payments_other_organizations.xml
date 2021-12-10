@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginLeft="@dimen/margin_xxlarge"
+    android:layout_marginRight="@dimen/margin_xxlarge"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom= "6dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:src="@drawable/ic_edit_profile"
+                android:layout_height="@dimen/layout_height_xxlarge"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:layout_marginBottom="@dimen/margin_normall"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Entrer code" />
+            <EditText
+                android:layout_marginBottom="@dimen/margin_normall"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/layout_height_small"
+                android:layout_weight="1"
+                android:background="@drawable/text_border_stype"
+                android:text="Entrer code" />
+            <TextView
+                android:layout_marginBottom="@dimen/margin_normall"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Name" />
+            <EditText
+                android:layout_marginBottom="@dimen/margin_normall"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/layout_height_small"
+                android:layout_weight="1"
+                android:background="@drawable/text_border_stype"
+                android:text="Name" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+        <EditText
+            android:layout_marginBottom="@dimen/margin_normall"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/layout_height_small"
+            android:layout_weight="1"
+            android:background="@drawable/text_border_stype"
+            android:text="@string/str_enter_payment_amount" />
+
+        <Button
+            android:background="@drawable/button_stye_v1"
+            android:id="@+id/btnSave"
+            android:layout_marginLeft="@dimen/margin_xxlarge"
+            android:layout_marginRight="@dimen/margin_xxlarge"
+            android:onClick="onClickSaveAccType"
+            android:text="@string/str_next"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+</RelativeLayout>

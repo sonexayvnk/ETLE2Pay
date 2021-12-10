@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".Register">
+
+    <item android:id="@+id/action_exit"
+        android:title="@string/action_check_updates"
+        android:icon="@mipmap/icon_close"
+        app:showAsAction="ifRoom" />
+
+</menu>

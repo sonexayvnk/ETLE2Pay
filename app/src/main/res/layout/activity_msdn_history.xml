@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:context="com.etl.money.MsdnHistoryActivity">
+    <ListView
+        android:divider="@null"
+        android:layout_marginTop="10dp"
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+/>
+    <TextView
+        android:id="@+id/txtNoitem"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:layout_below="@+id/View03"
+        android:ems="10"
+        android:left="30dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:radius="9dp"
+        android:right="30dp"
+        android:text="@string/str_no_items"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:top="30dp" />
+</RelativeLayout>

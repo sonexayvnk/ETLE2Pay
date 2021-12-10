@@ -1,0 +1,1195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="img_take_photos">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</string>
+    <!--    <string name="str_url_httpsBackup" translatable="false">https://202.62.111.100/androidv2/</string>-->
+    <string name="str_url_https" translatable="false">https://202.62.111.236/ETLMoney/</string>-->
+    <string name="str_you_want_to_delete_the_number">Do you want to delete the number ?</string>
+
+    <string name="str_really" translatable="false">.?</string>
+    <string name="str_msdn_history">Top up history</string>
+    <string name="str_scan_qr_code">Scan QR Code</string>
+    <string name="str_turn_on_flashlight">Click button for turn on flashlight</string>
+    <string name="str_turn_off_flashlight">Click button for turn off flashlight</string>
+    <string name="str_fingerprint_authentication">Fingerprint Authentication</string>
+
+    <string name="str_Login_with_finger_used">Login with fingerprints being used.</string>
+    <string name="str_Login_with_finger_not_used">Login with fingerprints is not used.</string>
+    <string name="str_finger_changed">Fingerprint data changed Please login using a password the go to seting -> Biometric Setings -> Save to record a new fingerprint.</string>
+
+
+    <string name="str_login_with_fingerprint">Login with fingerprint</string>
+    <string name="str_go_to_login"> <u>Login using Moble number </u></string>
+    <string name="str_Cannot_recognize_your_finger">Cannot recognize your finger print. Please try again.</string>
+    <string name="str_device_does_not_have_finger">Your device does not have finger print scanner.</string>
+    <string name="str_no_finger_registered">There are no finger prints registered on this device. Please register your finger from settings.</string>
+    <string name="str_version_of_android_that_does_not_support_finger">You are running older version of android that does not support finger print authentication</string>
+
+    <string name="str_open_setting">Open Seting</string>
+    <string name="str_you_would_like_to_cash_in_for_this_end_user">You would like to cash in for this end user</string>
+    <!--History-->
+    <!--Description-->
+
+    <string name="title_activity_scanner">ScannerActivity</string>
+    <string name="str_etlL_Services"> <u>ETL Services</u></string>
+    <string name="str_etl_company_limited"> <u>ETL Company Limited</u></string>
+    <string name="str_wallet_etl_company_limited"> ETL Digital finTech</string>
+
+
+    <string name="str_web_etlL"> <u>etllao.com</u></string>
+    <string name="str_description">Description:</string>
+    <string name="str_description2">Description</string>
+    <string name="str_buy">Buy</string>
+    <string name="str_transfer_to">kip to number</string>
+    <string name="str_payment_kip_to_id">Kip To ID</string>
+    <string name="str_hours">hours</string>
+    <string name="str_for">for</string>
+    <string name="str_period">period</string>
+    <string name="str_day">day</string>
+    <!--Status-->
+    <string name="str_mb">mb</string>
+    <string name="status_successful">Status: Successful</string>
+
+
+
+    <!--End History-->
+    <string name="str_session_timeout_reset_password">Sorry, your session is time out</string>
+    <string name="app_name">e2Pay</string>
+    <string name="action_wifi_log">Log</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    <string name="login_title">Log in</string>
+    <string name="number_display_hint">202/302xxxxxxxx</string>
+    <string name="pass_hint">Password</string>
+    <string name="login_button">Login</string>
+    <string name="register_char">Register</string>
+    <string name="remember_me">Remember number</string>
+
+    <string name="guest_user">Guest user</string>
+    <string name="str_register">Register</string>
+    <string name="str_cancel">Cancel</string>
+
+    <string name="str_unknown">Unknown</string>
+    <string name="str_do_you_want_to_change_password">Do you want to change new password</string>
+    <string name="str_enter_old_password">Enter old password</string>
+    <string name="str_enter_new_password">Enter new password</string>
+    <string name="str_change_assword">Change password</string>
+    <string name="str_enter_confirm_password">Enter confirm password່</string>
+    <string name="str_please_enter_Old_password">Please enter old password</string>
+
+    <string name="str_pospaid_only">Postpaid Only</string>
+
+
+    <string name="str_please_enter_new_password">Please enter new password</string>
+    <string name="str_please_enter_confirm_password">Please enter New Password</string>
+    <string name="str_confirm_password_mismatch">Confirm password mismatch</string>
+    <string name="str_old_password_incorrect">Old password incorrect</string>
+
+    <string name="str_can_not_connect_to_server">Can not connect to servers.</string>
+    <string name="str_can_not_put_asdl">Plesae fill ADSL ID</string>
+    <string name="str_can_not_put_topupnumber">Plesae fill number to topup</string>
+    <string name="str_can_not_put_pin">Please fill pin number</string>
+    <string name="str_fill_des_number">Please fill destination number</string>
+
+
+    <!-- Nav Drawer Menu Items -->
+    <string name="str_fill_amout_number">Please put amount 1,000 - 999,999 kips</string>
+
+    <!-- Keep them in order as the titles are in -->
+    <string name="str_operation_success">Your operation is successful, thank you.</string>
+
+    <!-- Content Description -->
+
+    <string name="title_activity_register">Register</string>
+    <string name="hint_mobile_number">Mobile number 202/302xxxxxxxx</string>
+    <string name="hint_your_name">Your first name</string>
+    <string name="txt_lastname">Your last name</string>
+    <string name="txt_email">Email address</string>
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="str_loading">Please wait, Loading.......</string>
+    <string name="title_activity_new_update">NewUpdateActivity</string>
+    <string name="title_confirm_to_exit">Confirm</string>
+
+    <string name="str_confirm_to_exit">Would you like to logout ?</string>
+
+    <string name="title_transfer_successful">Transfer successful and remain balance is</string>
+    <string name="title_pay_successful">Pay successful and remain balance is</string>
+
+    <string name="str_confirm_to_transfer_from">You would like to transfer balance from </string>
+    <string name="str_confirm_to_pay_from">You would like to pay balance from </string>
+
+    <string name="str_confirm_to_pay_id">Would you like to pay ADSL ID </string>
+
+    <string name="str_confirm_to_pay_deduct_balance_from">and system will deduct balance from  </string>
+    <string name="str_confirm_to_transfer_to">to </string>
+
+    <string name="str_confirm_to_tran_amt">amount</string>
+    <string name="str_confirm_to_tran_free">kips with fee 100 kips</string>
+    <string name="str_confirm_to_register">Would you like to register this service ?</string>
+
+    <string name="str_confirm_to_reset_new_passwordr">Would you like to reset new password ?</string>
+    <string name="str_confirm_to_cancel">Would you like to cancel this service ?</string>
+    <string name="str_confirm_to_delete">Would you like to delete this record ?</string>
+
+    <string name="str_to_delete">Delete</string>
+    <string name="str_to_deleted_data_success">Data was deleted.</string>
+    <string name="str_to_deleted_data_fail">Data was deleted fail</string>
+    <string name="str_yes_to_exit">Yes</string>
+
+    <string name="str_no_to_exit">No</string>
+
+
+    <string name="str_yes_to_topup">Yes</string>
+
+    <string name="str_no_to_topup">No</string>
+    <string name="str_save">Save</string>
+    <string name="str_modify_code">OTP code</string>
+    <string name="str_Verifiy_code">OTP code</string>
+
+    <string name="str_sent_modify_code_to_sms">Sent to SMS</string>
+    <string name="str_get_otp">Get OTP</string>
+    <string name="str_get_QR">Get QR</string>
+    <string name="str_confirm_modify_code_from_sms">Confirm modify code</string>
+    <string name="str_save_New_password">Save New password</string>
+    <string name="str_please_confirm_password">please_confirm_password</string>
+
+
+    <string name="str_please_enter_modify_code">Please enter modify code </string>
+
+    <string name="str_new_password">New Password</string>
+
+
+    <string name="str_confirm_password">Confirm Password</string>
+    <string name="str_subject_using">Subject for Using:</string>
+
+    <string name="str_subject_select">Subject for Register or Cancel:</string>
+    <string name="str_register_or_cancel">Register or Cancel:</string>
+    <string name="str_register_type">Subject Register Type:</string>
+    <string name="title_activity_test">Test</string>
+
+
+    <string name="str_insert_Email_address">Insert Email Address for register</string>
+
+    <string name="str_Subject">Subject:</string>
+
+    <string name="str_msisdn">Number:</string>
+    <string name="str_buy_lottery_reach_amount">You can purchase maximum 12 digits/time</string>
+
+    <string name="str_buy_lottery_reach_amount_500k_kip">Sorry, the purchase amount could not be over 500,000 KIP per digit</string>
+    <string name="str_lottery_request">Request type:</string>
+    <string name="str_user_active">Active</string>
+
+    <string name="str_user_no_active">Inactive</string>
+    <string name="str_msdn_is_no_have">This number has not been registered</string>
+    <string name="str_modify_fro_sms_is_invalid">Verify from SMS is invalid</string>
+    <string name="btn_submit">Submit</string>
+    <string name="str_refresh_lott_status">Refresh</string>
+    <string name="str_please_request_lottery_type">Please select request type.</string>
+    <string name="txt_msdn_nifo">Number info</string>
+    <string name="str_process_lot">Register or cancel</string>
+    <string name="str_type_of_subscriber">Subscriber type</string>
+    <string name="str_postpaid">Post paid</string>
+    <string name="str_prepaid">Prepaid</string>
+    <string name="str_balance">Balance</string>
+    <string name="str_debit">Debit:</string>
+    <string name="str_advance">Advance:</string>
+    <string name="str_end_more">End</string>
+    <string name="title_activity_sub_info">Subscriber Info</string>
+    <string name="action_search">Search</string>
+    <!-- Action Bar action items -->
+    <string name="action_location_found">Location Found</string>
+    <string name="action_refresh">Exit</string>
+    <!--<string name="action_refresh">Refresh</string>-->
+    <string name="action_contacts">Contacts</string>
+    <string name="action_help">Help</string>
+    <string name="action_check_updates">Logout</string>
+    <string name="str_advance_balance">Advance:</string>
+    <string name="txt_advance_amount">advance amount</string>
+    <string name="txt_use_in_month">Use In Month</string>
+    <string name="title_activity_activity_package_data">Data info</string>
+    <string name="txt_msisdn_data_info">Data info</string>
+    <string name="txt_package_name">Package name</string>
+    <string name="txt_rent_fee">Rental fee</string>
+    <string name="id_rent_fee_text">Rental fee</string>
+    <string name="txt_fee_resource_text">Free Resource [MB]</string>
+    <string name="txt_active_date_text">Active date</string>
+    <string name="txt_valid_todate">Valid to date</string>
+    <string name="txt_usage_data_text">Usage data [MB]</string>
+    <string name="txt_remain_data_text">Remain data [MB]</string>
+    <string name="title_activity_change_password">Change Password</string>
+
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="str_resetpassword_complete">Reset password complete</string>
+
+
+    <string name="str_please_enter_phone_number">Please enter phone number</string>
+    <string name="str_confirm">Confirm</string>
+    <string name="str_forget_password">Forgot Password?</string>
+    <string name="general_news_for_lao">NL: General news for lao</string>
+    <string name="general_news_for_english">NE: General news for english</string>
+    <string name="work_news_for_lao">WL: Work news for lao</string>
+    <string name="work_news_for_english">WE: Work news for english</string>
+    <string name="sport_news_for_lao">SL: Sport news for lao</string>
+    <string name="sport_news_for_english">SE: Sport news for english</string>
+    <string name="jop_news_for_lao">JL: Jop news for lao</string>
+    <string name="jop_news_for_english">JE: Jop news for english</string>
+    <string name="str_phone_number_is_invalide">Phone number is invalid</string>
+
+    <string name="sale_news_for_lao">SL: Sport news 6789for lao</string>
+    <string name="sale_news_for_english">SE: Sport news 6789 for english</string>
+    <string name="friend_news_for_lao">FL: Sale News for lao</string>
+    <string name="friend_news_for_english">FE: Sale News  for english</string>
+    <string name="price_news_for_lao">PL: Promotion news for lao</string>
+    <string name="price_news_for_english">PE: Promotion news for english</string>
+    <string name="str_refresh_status">Refresh</string>
+    <string name="str_no_items">No items</string>
+    <string name="title_activity_etlwallet">ETL Wallet</string>
+
+    <string name="str_etl_info">ETL  COMPANY LIMITED</string>
+    <string name="title_activity_lotter226">Lottery 226</string>
+
+    <string name="title_activity_lotter6166">Lotter 6166</string>
+    <string name="title_activity_ex_change_rate2242ctivity">ExChange rate 2242</string>
+    <string name="title_activity_holiday_new2299">HolidayNew 2299</string>
+    <string name="title_activity_vientiane__times__news2246">Vientiane times news 2246</string>
+    <string name="title_activity_family6789">Family 6789</string>
+    <string name="title_activity_paisai3434">Paisai 3434</string>
+    <string name="title_activity_jop108_1108">108 Job</string>
+    <string name="title_activity_buy_lottery">Buy lottery</string>
+    <string name="title_activity_etl_staff">ETL Staff</string>
+    <string name="title_activity_topup_card">Top up</string>
+
+    <string name="title_activity_miss_call666">Miss call 666</string>
+    <string name="title_activity_voice_changer664">Voice changer 664</string>
+    <string name="title_activity_backgroud_music663ctivity">Background music 663</string>
+    <string name="title_activity_ring_back_tone669">Ring back tone 669</string>
+    <string name="title_activity_music_gift1900">Music gift 1900</string>
+    <string name="title_activity_bill_via_email">Bill Via Email</string>
+    <string name="title_activity_menu_vas">Vas menu</string>
+
+    <string name="title_activity_reset_password">Create new Password</string>
+    <string name="str_topup">Top up</string>
+    <string name="str_check_data">Package</string>
+    <string name="title_activity_topup">Topup</string>
+    <string name="str_please_input_pin">Refill by PIN Card</string>
+    <string name="values_pinnumber_box">input pin number here</string>
+    <string name="str_ok">OK</string>
+    <string name="str_submit">Submit</string>
+    <string name="str_submit_query">Query</string>
+    <string name="str_conect_internet_fail">Internet connection is not available, please check your connection and try again, thanks.</string>
+    <string name="str_emty_put_pin_alert">Please put pin number,thank you.</string>
+    <string name="str_alert">Alert</string>
+    <string name="str_topup_your_number">Owner number</string>
+    <string name="str_full_name">Full name</string>
+    <string name="txt_other_number">Other number</string>
+    <string name="txt_owner_number_to_topup">-</string>
+    <string name="str_put_number_to_topup">Enter 202/302...</string>
+    <string name="str_confirm_to_Topup">Number you would like to top up to is:</string>
+    <string name="str_no_record">No Record</string>
+    <string name="str_pleasewait_inprocess">Processing please wait...</string>
+    <string name="str_error_please_try_again">Error, please try again.</string>
+    <!--ເກີດຄວາມຜິດພາດ ລອງໃໝ່ອີກຄັ້ງ-->
+    <string name="str_to_number"> to number: </string>
+    <string name="str_error_connot_connect_toserver">Sorry, cannot connect to server, please try again.</string>
+    <!--"ບໍ່ສາມາດຕິດຕໍ່ກັບ Server ໄດ້"-->
+    <string name="str_top_up_fail">Sorry your top up is fail, try again or contact call center 135.</string>
+    <!--Sorry your topup is fail valid to to date, try again or contact call center 135.-->
+
+    <string name="str_stop_by_force_logout">Sorry your session is force to logout, please login and try again.</string>
+    <!--String displayPuop ="You have refill balalce " + cardValuse + " Kips current balance is " + NewBalance + " valid to to date "+ valideActiveTo;-->
+
+    <string name="str_top_up_cardvaluse">You have refill balance</string>
+
+    <string name="str_top_up_to_msidn">kip, to number: </string>
+    <string name="str_top_up_newbalance">Kips current balance is </string>
+    <string name="str_top_up_validto"> valid to to date </string>
+    <string name="str_changepass_success">You have success change password, please relogin.</string>
+    <string name="str_no_set">No status</string>
+    <string name="str_ok_only">OK</string>
+    <string name="str_change_password_complete">Change password successful </string>
+    <string name="str_loading_more">Loading.....</string>
+
+
+    <string name="action_topup">Top up</string>
+    <string name="str_debit_total">Total debit:</string>
+    <string name="title_activity_about_app">About App</string>
+    <string name="about_app_version">Version 1.0</string>
+    <string name="about_app_year">2016 ETL COMPANY LIMITED</string>
+    <string name="about_app_all_rigth_reserv" translatable="false">ALL rights reserved</string>
+    <string name="about_app_dev_by" translatable="false">Develop by</string>
+    <string name="about_app_name_of_dev">Research and Development Section</string>
+    <string name="about_app_ict_name">ICT Department</string>
+    <string name="topup_post_success">Topup successful, To make sure, we advise pleasure check you debit in subscriber info again.</string>
+    <string name="str_pin_input_invalid_len">Your PIN is invalid format</string>
+    <string name="chooselang">Language</string>
+    <string name="checkbox_remember_la">Remember number</string>
+    <string name="password_la"></string>
+    <string name="str_invalid_number_or_password">Mobile number or password is invalid</string>
+    <string name="str_about_app">About App</string>
+    <string name="str_leng_of_name_too_short">Your name is invalid format</string>
+    <string name="str_length_of_last_name_invalid">Your last name is invalid length</string>
+    <string name="str_length_of_job_invalid">Your Job info is too short</string>
+    <string name="str_length_of_village_invalid">Your village name is invalid format</string>
+    <string name="str_length_of_district_invalid">Your district name is invalid format</string>
+    <string name="str_login_fail_please_check_pass_ornumber">Sorry, Login fail,  please check your subscriber number or password and try again,  thankyou.</string>
+
+    <string name="str_please_choose_sex">Please choose sex</string>
+
+    <string name="str_number_no_have_any_package_data">Sorry, Your number don\'t have any data package</string>
+    <string name="str_please_select_province">Please select your province</string>
+    <string name="str_please_select_date_of_birth">Please select your Date of birth</string>
+    <string name="str_advice_service_lotto_226">
+            # 225: Check a lottery.\n
+            - Check deatime : Write LOT sent to number 225, Service charges 1,000 kip/time. \n
+            - A check by date: posted LOT dd / mm / yyyy to number 225 \n
+            # 226: Check lottery a month. - Register Write ON sent to number 225 and you will be receive Lottery results  every times when have new result.\n
+            - Registration service charges 5,000 per month.
+           # 228: Cancle sevice : Write OFF send to number 228 (Free)</string>
+    <string name="str_advice_lotto_6166">Register you will receive lottery via sms every times when have new result,\n Retail fee 4.000 kips per month .</string>
+    <string name="str_advide_background_music">You can play music when you talk to other people like background,\n Rental fee is 200 Kip per day.</string>
+    <string name="str_advise_exchange_rate">Inform Exchange rate every day. Rental fee 5,000 Kip/Month.\n #Register by SMS monthly,\n
+            -Type ON send to 2242\n -Unregister type OFF\n # Check each times\ -Type C send to 2242\n -fee 500Kip per times.</string>
+    <string name="str_advise_6789">Rental fee 200 kip per day per subject.</string>
+    <string name="str_advise_falmily">Rental fee is 200 kip per day per Subject.</string>
+    <string name="str_advise_holiday2299">-Receive news via sms according Subject of news.\n Rental fee 300 Kip/day/subject.</string>
+    <string name="str_misscall_alert">This service will sent you the number which call you when you power off or not in area service,\n Rental fee 200 per day.</string>
+    <string name="str_advise_music_gift">Rental fee 200 Kip/day.</string>
+    <string name="str_advise_paisai_3434">Rental fee 1,000 Kip/day.</string>
+    <string name="str_advise_rbt_669">- Rental fee 200 kip/day for normal, and 500 kip/day for buffet.</string>
+    <string name="str_advise_vientiane_times">Rental fee 500 Kip/day.</string>
+    <string name="str_advise_664">Rental fee 200 kip/day.</string>
+    <string name="str_bill_via_email">Free service,\nSystem will send bill statment to your email begin of month.</string>
+    <string name="str_advise_108_job">Rental fee 200 Kip/day.</string>
+    <string name="str_title_promotion">Promotion</string>
+    <string name="str_register_form">Register form</string>
+    <string name="str_wifi">Wifi</string>
+    <string name="str_buy_wifi_hotspot">Buy ETL Wifi user</string>
+    <string name="title_activity_activity_hotspot_user">Package WIFI</string>
+    <string name="str_confirm_buy_hotspot_package">You would like to buy package wifi</string>
+    <string name="str_user_name">Your user name</string>
+    <string name="str_buy_wifi_success">Successful</string>
+    <string name="str_guest_user">Guest user</string>
+    <!--<string name="str_please_wait_processing">Please wait, processing...</string>-->
+    <string name="str_guest_user_vi">khách</string>
+
+    <string name="str_guest_user_zh">客人</string>
+    <string name="title_activity_main_activity_guest_user">Welcome</string>
+    <string name="str_msisdn_select">Choose number</string>
+    <string name="title_activity_activity_select_number_quest">Number list</string>
+    <string name="title_choose_nice_number">Choose number</string>
+    <string name="title_promotion">Promotion</string>
+    <string name="str_choose_number_to_active">You have choose number: </string>
+
+    <string name="str_choose_number_to_active_wait_minute">, please wait for 30 min to active number</string>
+    <string name="str_sim_number_invalid">Your sim number is invalid, you have to buy sim according price of number and insert sim to mobile then try this again, thank you.</string>
+    <string name="str_wait_another">Wait another</string>
+
+    <string name="str_minutes_and_try_again">minutes and try again</string>
+    <string name="str_seconds_and_try_again">seconds and try again</string>
+    <string name="str_restart_again">You entered incorrectly more than 2 times. Please restart again</string>
+    <string name="str_search_number">Search number</string>
+
+    <string name="str_do_you_want_sent_modify_code_to_sms">Do you want sent modify code to SMS?</string>
+    <string name="str_do_you_want_sent_verify_code_to_sms">Do you want sent verify code to SMS?</string>
+    <string name="str_The_Password_must_be_6_characters_long">The code must be 6 characters long</string>
+
+    <string name="str_search">Search</string>
+    <string name="str_clear">Clear</string>
+    <string name="str_price">Price</string>
+    <string name="str_kip">Kip</string>
+    <string name="str_warning">Warn</string>
+
+
+    <string name="str_order_success">You have order new number successful, please wait for 30 minute, thank you.</string>
+    <string name="title_activity_test_back">Test_back</string>
+    <string name="title_activity_test_pre_back">Test_pre_back</string>
+    <string name="title_activity_main_tab">MainTabActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="str_tab_usage_info">USAGE INFO</string>
+    <string name="str_tab_service">SERVICE</string>
+
+
+    <string name="str_setting_system">Setting</string>
+    <string name="str_log_out">Logout</string>
+    <string name="str_data_usage_remain">Reamain data:</string>
+    <string name="str_data_usage">Usage data:</string>
+    <string name="str_toltal_balance">Balance</string>
+    <string name="str_toltal_balance_deb">Previous debt</string>
+    <string name="str_toltal_previous_debt_or_advance">Total Debt</string>
+    <string name="str_txt_string_using_now_underline">Using now</string>
+    <string name="str_toltal_balance_advance">Advance</string>
+
+
+    <string name="str_package_underline">Package</string>
+    <string name="str_score_underline">Score</string>
+
+    <string name="str_Bonus_underline">Bonus</string>
+    <string name="str_buy_number">Nice number</string>
+    <string name="str_package_data">Package Data</string>
+    <string name="str_vas_service">VAS</string>
+
+    <string name="str_pay_adsl">ADSL Payment</string>
+
+    <string name="str_buy_lottry">Buy Lottery</string>
+    <string name="str_buy_lottry_error_input_digits">Your input digits is incorrect, 2 or 3 digits acceptable.</string>
+
+    <string name="str_buy_lottry_error_input_amount">Your Amount should be in 1,000 unit.</string>
+    <string name="str_buy_lottry_error_input_amount_empty">Your Amount can be not empty.</string>
+
+
+    <string name="str_etl_staff">ETL Staff</string>
+    <string name="str_lottery_2or3digits_hint">2/3 digits</string>
+    <string name="str_ir">IR Rate</string>
+
+    <string name="str_register_new_number">Sub Register</string>
+    <string name="title_activity_test1_nouse">test1_nouse</string>
+    <string name="str_wifi_5_hours">5 hours</string>
+
+    <string name="str_wifi_age_24_hours">Period 1 day</string>
+    <string name="str_wifi_10_hours">10 Hours</string>
+    <string name="str_wifi_age_10_hours">Period 30 days</string>
+    <string name="str_wifi_50_hours">50 Hours</string>
+    <string name="str_wifi_age_50_hours">Period 50 days</string>
+    <string name="str_wifi_100_hours">100 Hours</string>
+    <string name="str_wifi_age_100_hours">Period 100 Hours</string>
+    <string name="str_wifi_send_sms5_to_1131">Click to buy or type SMS net5 send to 1131</string>
+    <string name="str_wifi_send_sms10_to_1131">Click to buy or type SMS net10 send to 1131</string>
+    <string name="str_wifi_send_sms50_to_1131">Click to buy or type SMS net50 send to 1131</string>
+    <string name="str_wifi_send_sms100_to_1131">Click to buy or type SMS net100 send to 1131</string>
+    <string name="str_lock_user_with_phone_titel">Lock user with phone</string>
+
+    <string name="str_lock_user_with_phone">Lock user with phone</string>
+    <string name="str_wifi_zone_service_tiltel">Wifi available zone</string>
+
+    <string name="str_wifi_zone_service">
+            -Mekong Road(Horkham-Tammour)  13 point.
+            nongbone Road(patouxay - Thatlaung) 10 point.\n
+            -National University of laos NOUL 8 point (Faculty of Economics and Business Administration, NOUL Restaurant, ADS Shop and dormitory).\n
+            -Public Administration Thangone - international 01 point.\n
+            -Hardlock Restaurant 02 point.\n
+            -ETL Limited (saylom) 08 point.\n
+            -Polytechnic College 13 point.\n
+            -Saysettha Develoment Zone 05 point</string>
+    <string name="str_Select_language">Select language</string>
+    <string name="str_package_en1_title">NET Sim Package</string>
+
+    <!--Package data internet-->
+    <string name="str_package_en1"><u>Package en1</u></string>
+    <string name="str_package_en1_mb">240 MB</string>
+    <string name="str_package_en1_price"><u>1,000 KIP</u></string>
+    <string name="str_package_en1_age">Period 1 day</string>
+    <string name="str_package_en1_advise">Click to buy or type en1 send to 333 (SMS)</string>
+    <string name="str_package_en5"><u>Package en5</u></string>
+
+    <string name="str_package_en5_mb">800 MB</string>
+    <string name="str_package_en5_price"><u>5,000 KIP</u></string>
+    <string name="str_package_en5_age">Period 1 day</string>
+    <string name="str_package_en5_advise">Click to buy or type en5 send to 333 (SMS)</string>
+    <string name="str_package_en10"><u>Package en10</u></string>
+
+    <string name="str_package_en10_mb">1,500 MB</string>
+    <string name="str_package_en10_price"><u>10,000 KIP</u></string>
+    <string name="str_package_en10_age">Period 7 days</string>
+    <string name="str_package_en10_advise">Type en10 send to 333 (SMS)</string>
+    <string name="str_package_en50"><u>Package en50</u></string>
+
+    <string name="str_package_en50_mb">5,500 MB</string>
+    <string name="str_package_en50_price"><u>50,000 KIP</u></string>
+    <string name="str_package_en50_age">Period 30 days</string>
+    <string name="str_package_en50_advise">Click to buy or type en50 send to 333 (SMS)</string>
+    <string name="str_package_en100"><u>Package en100</u></string>
+
+    <string name="str_package_en100_mb">12,000 MB</string>
+    <string name="str_package_en100_price"><u>100,000 KIP</u></string>
+    <string name="str_package_en100_age">Period 30 days</string>
+    <string name="str_package_en100_advise">Type en100 send to 333 (SMS)</string>
+    <string name="str_package_en200"><u>Package en200</u></string>
+
+    <string name="str_package_en200_mb">30,000 MB</string>
+    <string name="str_package_en200_price"><u>200,000 KIP</u></string>
+    <string name="str_package_en200_age">Period 30 days</string>
+    <string name="str_package_en200_advise">Click to buy or type en200 send to 333 (SMS)</string>
+    <string name="str_package_en250"><u>Package en250</u></string>
+
+    <string name="str_package_en250_mb"><u>Unlimited MB</u></string>
+    <string name="str_package_en250_price"><u>250,000 KIP</u></string>
+    <string name="str_package_en250_age">Period 30 days</string>
+    <string name="str_package_en250_advise">Click to buy or type en250 send to 333 (SMS)</string>
+    <string name="str_package_ep1_title">Mobile Package</string>
+
+
+    <!--ePlus-->
+    <string name="str_package_ep1"><u>Package ep1</u></string>
+    <string name="str_package_ep1_mb">25 MB</string>
+    <string name="str_package_ep1_price"><u>1,000 KIP</u></string>
+    <string name="str_package_ep1_age">Period 1 day</string>
+    <string name="str_package_ep1_advise">Type ep1 send to 333 (SMS)</string>
+    <string name="str_package_ep5"><u>Package ep5</u></string>
+
+    <string name="str_package_ep5_mb">120 MB</string>
+    <string name="str_package_ep5_price"><u>5,000 KIP</u></string>
+    <string name="str_package_ep5_age">Period 1 day</string>
+    <string name="str_package_ep5_advise">Click to buy or Type ep5 send to 333 (SMS)</string>
+    <string name="str_package_ep10"><u>Package ep10</u></string>
+
+    <string name="str_package_ep10_mb">250 MB</string>
+    <string name="str_package_ep10_price"><u>10,000 KIP</u></string>
+    <string name="str_package_ep10_age">Period 7 days</string>
+    <string name="str_package_ep10_advise">Click to buy or Type ep10 send to 333 (SMS)</string>
+    <string name="str_toltal_balance_total_advance">Total advance</string>
+    <string name="str_package_ep50"><u>Package ep50</u></string>
+    <string name="str_package_ep50_mb">1,250 MB</string>
+    <string name="str_package_ep50_price"><u>50,000 KIP</u></string>
+    <string name="str_package_ep50_age">Period 30 days</string>
+    <string name="str_package_ep50_advise">Click to buy or Type ep50 send to 333 (SMS)</string>
+    <string name="str_package_ep100"><u>Package ep100</u></string>
+
+    <string name="str_package_ep100_mb">2,500 MB</string>
+    <string name="str_package_ep100_price"><u>100,000 KIP</u></string>
+    <string name="str_package_ep100_age">Period 30 days</string>
+    <string name="str_package_ep100_advise">Click to buy or type ep100 send to 333 (SMS)</string>
+    <string name="str_package_ep200"><u>Package ep200</u></string>
+
+    <string name="str_package_ep200_mb">30,000 MB</string>
+    <string name="str_package_ep200_price"><u>200,000 KIP</u></string>
+    <string name="str_package_ep200_age">Period 30 days</string>
+    <string name="str_package_ep200_advise">Click to buy or Type ep200 send to 333 (SMS)</string>
+    <string name="str_package_es99_title">Mobile Package</string>
+
+
+    <!--eSmart-->
+    <string name="str_package_es99">Package eS99</string>
+    <string name="str_package_es99_mb">500 MB, Offnet 200 min, 50 sms</string>
+    <string name="str_package_es99_price">99,000 KIP</string>
+    <string name="str_package_es99_age">Period 30 day</string>
+    <string name="str_package_es99_advise">Type es99 send to 330 (SMS)</string>
+    <string name="str_package_es169">Package eS169</string>
+
+
+    <string name="str_package_es169_mb">1,250 MB, Offnet  300 min, 50 sms. </string>
+    <string name="str_package_es169_price">169,000 KIP</string>
+    <string name="str_package_es169_age">Period 30 day</string>
+    <string name="str_package_es169_advise">Type es169 send to 330 (SMS)</string>
+    <string name="str_package_es239">Package eS239</string>
+
+
+    <string name="str_package_es239_mb">1,250 MB, Offnet 400 min,  sms.</string>
+    <string name="str_package_es239_price">239,000 KIP</string>
+    <string name="str_package_es239_age">Period 30 day</string>
+    <string name="str_package_es239_advise" translatable="false">Type es239 send to 330 (SMS)</string>
+    <string name="str_package_es299">Package eS299</string>
+
+    <string name="str_package_es299_mb">2,500 MB, Offnet 500 min, 100 sms.</string>
+    <string name="str_package_es299_price">299,000 KIP</string>
+    <string name="str_package_es299_age">Period 30 day</string>
+    <string name="str_package_es299_advise" translatable="false">Type es299 send to 330 (SMS)</string>
+    <string name="str_package_et1_title"> Voice Package</string>
+
+
+    <!--eTalk==============================================================-->
+    <string name="str_package_et1">eTalk easy</string>
+    <string name="str_package_et1_resource">300 Kip/min</string>
+    <string name="str_package_et1_price">25,000 KIP</string>
+    <string name="str_package_et1_age">Period 30 day</string>
+    <string name="str_package_et1_advise">Type 25 send to 330 (SMS)</string>
+    <string name="str_package_et59">Package eT59</string>
+
+    <string name="str_package_et59_resource">Onnet 90 min, Free sms Offnet 30  and onnet 20</string>
+    <string name="str_package_et59_price">59,000 KIP</string>
+    <string name="str_package_et59_age">Period 30 day</string>
+    <string name="str_package_et59_advise">Type eT59  send to 330 (SMS)</string>
+    <string name="str_package_et79">Package eT79</string>
+
+    <string name="str_package_et79_resource">Offnet 120 min, Free sms offnet 60 and onnet 40</string>
+    <string name="str_package_et79_price">79,000 KIP</string>
+    <string name="str_package_et79_age">Period 30 day</string>
+    <string name="str_package_et79_advise">Type eT79 send to 330 (SMS)</string>
+    <string name="str_package_et99">Package eT99</string>
+
+    <string name="str_package_et99_resource">Offnet 200 min, Free sms offnet 60  and onnet 40</string>
+    <string name="str_package_et99_price">99,000 KIP</string>
+    <string name="str_package_et99_age">Period 30 day</string>
+    <string name="str_package_et99_advise">Type eT99 send to 330 (SMS)</string>
+    <string name="str_package_et149">Package eT149</string>
+
+    <string name="str_package_et149_resource">Offnet 350 min, Free sms offnet 90  and onnet 50.</string>
+    <string name="str_package_et149_price">149,000 KIP</string>
+    <string name="str_package_et149_age">Period 30 day</string>
+    <string name="str_package_et149_advise">Type eT149 send to 330 (SMS)</string>
+    <string name="title_activity_transfer">Transfer Activity</string>
+    <string name="str_package_not_aviable">Your number is not available for this service</string>
+
+    <string name="str_transfer_balnace_title">Transfer balance</string>
+    //-----------------------Transfer--------------------------------------------
+
+    <string name="str_transfer_balance_dest_hin">Destination number 20/30xxxx</string>
+    <string name="str_transfer_balance_amt_hin">Transfer amount</string>
+    <string name="title_activity_vas_service_menu">VasServiceMenuActivity</string>
+    <string name="str_menu_vas_service_title">VAS</string>
+
+    //-------------------------------Menu VAS----------------------------------
+    <string name="str_menu_vas_service_oversea_call">Oversea call</string>
+    <string name="str_menu_vas_service_vaslottery226">Lottery result 226</string>
+    // 1
+    <string name="str_menu_vas_service_vas663">Background music 663</string>
+    <string name="str_menu_vas_service_vas664">Voice change 664</string>
+    <string name="str_menu_vas_service_vas6166">Lottery result 6166</string>
+    <string name="str_menu_vas_service_package_data">Package DATA</string>
+    <string name="str_menu_vas_service_vas666">Miss call alert 666</string>
+    <string name="str_menu_vas_service_vas669">Ring back tone 669</string>
+    <string name="str_menu_vas_service_exchange_rate">Exchange rate 2242</string>
+
+    <string name="str_menu_vas_service_vas2299">Holiday news 2299</string>
+    <string name="str_menu_vas_service_vt_times">Vientiane times news</string>
+    <string name="str_menu_vas_service_vas6789">Family magazine 6789</string>
+    <string name="str_menu_vas_service_vas_Paisai">Paisai 3434</string>
+    <string name="str_menu_vas_service_vas108job">108 job</string>
+    <string name="str_menu_vas_service_vas1900">Music gift 1900</string>
+    <string name="str_menu_vas_service_bill_via_email">Postpaid Bill via Email</string>
+    <string name="str_menu_vas_service_internet_bill_via_email">Internet Bill via Email</string>
+
+    <string name="str_menu_vas_service_vas_mail_email_postpaid1010">Postpaid Bill via email</string>
+    <string name="str_menu_vas_service_vas_mail_email_internet_email">Internet Bill via email</string>
+    <string name="str_menu_vas_servicve_vas_mail_pay_internet_adsl">Internet ADSL Payment</string>
+    <string name="str_background_music_title663">Background music</string>
+
+
+    <string name="title_activity_user_info">User info</string>
+    <string name="str_user_info_tel">Mobile: </string>
+    <string name="str_user_info_name">Name: </string>
+    <string name="str_user_info_sure_name">Sure name: </string>
+    <string name="str_have">Have</string>
+    <string name="str_kips">kips</string>
+    <string name="str_user_info_date_birth">DOB: </string>
+    <string name="str_user_info_address">Address: </string>
+    <string name="str_user_info_district">District: </string>
+    <string name="str_user_info_province">Province: </string>
+    <string name="usage_data">Usage data </string>
+    <string name="remain_data">Remain data </string>
+    <string name="usage_data_mb">MB</string>
+    <string name="str_sub_type_sub_info_Postpaid">(Postpaid)</string>
+    <string name="str_sub_type_sub_info_Prepaid">(Prepaid)</string>
+    <string name="str_balance_debit">(Prepaid)</string>
+    <string name="title_activity_history">History</string>
+    <string name="str_login_this_phone_only">Login this phone only</string>
+
+    <string name="title_activity_promotion">Promotion</string>
+
+    <string name="title_activity_image_view">ImageViewActivity</string>
+    <string name="title_activity_topup_guest_user">Top up Guest User Activity</string>
+    <string name="title_activity_internet_adsl_payment">Internet ADSL</string>
+    <string name="str_internet_adsl_balance_dest_hin">Internet ADSL ID</string>
+    <string name="str_internet_adsl_balance_hin">Debt amount</string>
+    <string name="str_internet_adsl_balance_hin_amt_to_pay">Payment amount</string>
+    <string name="title_activity_subinfo">Subscriber info</string>
+    <string name="title_oversea_call">Oversea call</string>
+    <string name="title_activity_main_web_view">MainWebViewActivity</string>
+    <string name="title_activity_wifi_log">Wifi Log</string>
+    <string name="title_activity_setting">Setting System</string>
+
+    <string name="title_activity_lock_user_with_phone">LockUserWithPhoneActivity</string>
+    <string name="str_not_support_forpospaid">This service is not support for you</string>
+
+    <string name="str_wifi_reach_amt">Your amount is reach max limit per month, try again later, thank you</string>
+    <string name="str_error_check_package">Sorry query your package info fail, try again later, thank you</string>
+    <string name="register_la">Register</string>
+    <string name="str_debit_adsl">Debit </string>
+    <string name="str_adv_adsl">Advance</string>
+
+    <string name="str_not_support_for_adsl">This ID type is not support for this service</string>
+    <string name="str_not_support_for_adsl_not_found">Sorry, your ID request can not be found</string>
+    <string name="str_you_would_like_to_buy">You would like to buy Package</string>
+
+    <string name="str_kips_will_be_charging_from"> kips will be charging from</string>
+    <string name="str_Please_use_between_6_and_35_characters">Please use between 4 and 35.</string>
+    <string name="str_please_seclect_gender">Please select gender</string>
+    <string name="str_please_enter_date_of_birth">Please input date of bith</string>
+    <string name="str_please_take_your_photos">Please take your photos</string>
+    <string name="str_name_off_package">Customer\'s name</string>
+
+    <string name="str_package_success">You have successfully purchased the package, please wait for the message to confirm.</string>
+
+    <string name="str_package_cannot_deduct">Sorry, Can not recharge balance, Plz check your balance and try again.</string>
+    <string name="str_package_exist_package">Sorry, request fail cause you have a  existing package, pls unregister and try again.</string>
+    <string name="str_package_buy_fail">Sorry, your request is fail, try again or contact ETL customer care service, thank you.</string>
+    <string name="str_name_transfer_fail">Sorry your request is fail, pls try again.</string>
+
+    <string name="iv_key">aedcfb0897645321</string>
+    <string name="secret_key">0917234658fdecab</string>
+    <string name="iv_key_backup">aedcfb0897645321</string>
+
+    <string name="secret_key_backup">92fdecababcdefa8</string>
+    <string name="greet">greet</string>
+
+
+    <string name="langselection">l</string>
+    <string name="login_button_la">Lohin</string>
+    <string name="str_guest_user_la">Guest user</string>
+    <string name="str_full_name_is_invalid">Full Name</string>
+    <string name="str_package_data0">packegae</string>
+    <string name="str_package_data1">packegae</string>
+    <string name="str_register_success">Register success, password sent to your mobile number, thank you.</string>
+    <string name="str_topup_success_pospaid">Topup successful, To make sure, we advise pleasure check you debit in subscriber info again.</string>
+    <string name="str_topup_already_use_pin">The voucher card has been already used.</string>
+    <string name="str_topup_invalid_pin">The voucher card does not exist or is invalid.</string>
+    <string name="str_lottery_no">No</string>
+    <string name="str_lottery_buy_digits">Digits</string>
+    <string name="str_lottery_buy_Amount">Amount</string>
+    <string name="str_lottery_buy_total_amount">Total:</string>
+    <string name="title_activity_login_with_fingerprint">LoginWithFingerprintActivity</string>
+    <string name="etl_staff_date_uload">Date</string>
+    <string name="etl_staff_message_title">Title:</string>
+    <string name="etl_staff_message_body">Body:</string>
+    <string name="str_etlL_staff_subject">Subject</string>
+    <string name="title_detail_str">Detail</string>
+    <string name="str_lottery_buying_success_01">Your have buy lottery Bill ID:</string>
+    <string name="str_lottery_buying_success_02">with result:</string>
+    <string name="str_lottery_buying_confirm_01">You would like to buy lottery with amount:</string>
+    <string name="str_lottery_check_quata_digits_number_error">Please input number you would like to check quota, 2 or 3 digits</string>
+    <string name="str_buy_lottery_2_or_3_digits">Buy 2 or 3 digits lottery</string>
+    <!--<string name="str_lottery_check_quata_digits_hint">Please input draw number to query </string>-->
+
+
+    <string name="str_buy_lottery_2_or_3_digits_hint">Buy lottery 2 digits or 3 digits</string>
+    <string name="str_buy_lottery_existing_digits">The number you enter is already in previose transaction, would you like to buy more ?</string>
+    <string name="str_buy_lottery_check_qauta">Check quota</string>
+    <string name="str_buy_lottery_check_qauta_hint">Check quota of digits how much remain</string>
+    <string name="str_buy_lottery_check_history">History</string>
+
+    <string name="str_buy_lottery_check_history_empty_record">Sorry, no have any history.</string>
+    <string name="str_buy_lottery_check_history_hint">Review last history buying lottery </string>
+    <string name="str_buy_lottery_check_getMoney">Receive money</string>
+
+    <string name="str_buy_lottery_check_getMoney_hint">You can claim the prize at mobile lottory branches all nationwide, for more information please call 1448</string>
+    <string name="str_submit_add_digits">Add</string>
+
+
+    <string name="str_submit_buy_final">Buy</string>
+    <string name="str_lottery_draw_no_hint">Draw Date yyyy-mm-dd</string>
+
+    <string name="str_lottery_charging_fail">Sorry, deduct balance fail, pls try again, thank you</string>
+    <string name="str_lottery_not_enough_balance">Sorry, your balance not enough, please fill and  try again, thank you</string>
+    <string name="str_lottery_bill_no_hint">Bill number</string>
+
+    <string name="str_lottery_put_draw_no_pls">Please input draw number to query </string>
+    <string name="str_lottery_over_quata">Sorry, the digits you have request is over quota</string>
+    <string name="str_lottery_over_quata_allow_amount_01">The digits: </string>
+    <string name="str_lottery_over_quata_allow_amount_02">, Allow maximum buying is: </string>
+    <string name="str_lottery_history">Lottery history</string>
+    <string name="str_lottery_error_draw_number_not_exist">Sorry, Draw number is not exists</string>
+    <string name="str_lottery_error_digits_number_invalid">Sorry, invalid digits</string>
+    <string name="title_activity_lottery">Lottery history</string>
+    <string name="str_notification_no_any_data">No record</string>
+
+
+    <string name="str_buy_package_wifi">Register WiFi Packages</string>
+    <string name="str_Recharge">Recharge</string>
+    <string name="str_choose_number">Choose number</string>
+
+
+    <string name="expire_date">Expire date</string>
+
+    <string name="str_ewallet">EWallet</string>
+
+
+    <!--<string name="str_mobile_stop_active_date">Expire date.</string>-->
+
+    <string name="title_activity_advertising">AdvertisingActivity</string>
+    <string name="str_don_t_show_again">Don\'t Show again</string>
+
+
+    <string name="str_mobile_number">Mobile number</string>
+    <string name="str_customer_name">Customer name</string>
+    <string name="str_mobile_status">Number status</string>
+    <string name="str_mobile_block_outgoing_call">suspend date</string>
+    <string name="str_mobile_suspended">disable date</string>
+
+    <string name="str_mobile_status_active">Active</string>
+    <string name="str_mobile_kind_of_number">Type of number</string>
+    <string name="str_expire_date">Expire date</string>
+    <string name="str_package_using">Using</string>
+    <string name="str_package_waiting">Waiting to used</string>
+    <string name="str_package_aleady_expired">Your data has finished</string>
+    <string name="str_login_fail_times01">Your password is incorrect</string>
+    <string name="str_login_fail_times02">Time</string>
+    <string name="str_login_fail_next_hours">Please login again</string>
+    <string name="str_next_hours">hours</string>
+    <string name="str_next_minute">minute</string>
+    <string name="str_next_second">second</string>
+    <string name="str_block_login_">Your phone has been suspend login , please contact the ETL service. Thanks.</string>
+    <string name="str_block_max_fail">Your number has been suspended for ETL Services because you have input the wrong code in multiple times, please contact the ETL Service Center. Thanks.</string>
+    <string name="str_error_many_times">Registed was unsuccessful, Because you proceed many times.</string>
+    <string name="str_error_operation_fail93">Operation was unsuccessful.</string>
+    <string name="str_error_operation_sucess_last10min">Sorry, the operation was not successful because you completed  order</string>
+
+
+    <string name="str_close">close</string>
+    <string-array name="nav_drawer_items">
+        <item>Home</item>
+        <item>VAS Service</item>
+        <item>Sub info</item>
+        <item>Promotion</item>
+        <item>About App</item>
+        <item>Communities</item>
+        <item>Pages</item>
+        <item>What\'s Hot</item>
+    </string-array>
+
+    <string name="str_Please_update">Please update ETL Services:</string>
+    <string name="str_update">Update</string>
+    <string name="str_data_detail_title">Package detail</string>
+    <string name="str_menu_vas_service_buy_ncc_lottery">Buy Lottery</string>
+
+
+    <string name="str_mobile_disables">Date of permanent use</string>
+    <string name="str_mobile_status_os_active">Active</string>
+    <string name="str_mobile_status_os_suspend">Suspend</string>
+    <string name="str_mobile_status_1000_idle">Idle</string>
+    <string name="str_mobile_status_1002_suspend_requestrequest">Suspend request</string>
+    <string name="str_mobile_status_1004_Suspend_fraud">Suspend fraud</string>
+    <string name="str_mobile_status_1005_SuspendCreditLimit">Suspend Credit Limit</string>
+    <string name="str_mobile_status_1006_1007_Disable">Disable</string>
+    <string name="str_mobile_status_1008_closed">Close</string>
+    <string name="str_mobile_status_1009_Pool">Pool</string>
+    <string name="str_mobile_status_1012_Recharge_Lock">Recharge Lock</string>
+    <string name="str_destination_number">Destination number</string>
+    <string name="str_topup_successful">Topup successful and remain balance is</string>
+    <string name="str_home">Home</string>
+    <string name="str_available_balance">Available balance</string>
+    <string name="str_action">Action</string>
+    <string name="str_report">Report</string>
+    <string name="str_chane_pws">Change PSW</string>
+    <string name="str_chane_verify">Change verify</string>
+    <string name="str_transfer_wallet">Transfer</string>
+    <string name="str_not_registered_for_wallet">Not registered for wallet</string>
+    <string name="str_do_you_want_change_confirm_verify_type_otp_to_password">Do you want Change confirm verify type OTP to Password?</string>
+    <string name="str_do_you_want_change_confirm_verify_type_password_to_otp">Do you want Change confirm verify type Password to OTP ?</string>
+    <string name="str_change_confirm_verify_type_successful_your_verify_type_is_OPT">Change confirm cerify type Successful. Your verify type is OTP</string>
+    <string name="str_change_confirm_verify_type_successful_your_verify_type_is_Password">Change confirm cerify type Successful. Your verify type is OTP</string>
+    <string name="str_sent_to_sms">Sent to SMS</string>
+    <string name="str_change_opt_to_password">Change OTP to Password</string>
+    <string name="str_change_password_to_opt">Change Password to OTP</string>
+    <string name="str_change_to_password">Change to Password</string>
+    <string name="str_change_to_opt">Change to OTP</string>
+
+    <string name="str_not_allowed_to_change_password_wallet">Not allowed to change password. Because using verify type is OTP </string>
+
+    <string name="str_name">Name</string>
+    <string name="str_destination_type">Destination type</string>
+    <string name="str_pending_amount">Pending Amount</string>
+    <string name="str_enter_payment_amount">Enter payment amount</string>
+    <string name="str_next">Next</string>
+    <string name="str_pay">Pay</string>
+
+    <string name="str_successful">Successful</string>
+    <string name="str_failed">Failed</string>
+    <string name="str_error">Error</string>
+    <string name="str_transfer_code">Transfer PIN code</string>
+    <string name="str_customer_id_is_invalide">Customer ID is invalid</string>
+    <string name="str_customer_id">Customer ID</string>
+
+    <string name="str_rigiter_data_package_other">Rigiter Data Package other</string>
+    <string name="dealer">Dealer</string>
+    <string name="dealer_info">Dealer info</string>
+
+    <string name="str_dealer">Customer ID</string>
+    <string name="str_number_type">Number type</string>
+    <string name="str_for_number"> to number: </string>
+    <string name="the_system_wall_deduct_from_your_balance_and_convert_it_to_a_data_package_for_the_recipient_numaber">The system will deduct from your balance and convert it to a data package for the recipient number</string>
+    <string name="str_buy_data_for_other_number_title">Register data package for other number</string>
+    <string name="str_buy_data_for_other_number">Register Data Package for</string>
+    <string name="str_for_destinaltion_and_original_number_can_not_be_same">Sorry, you are unable to Apply data package for your own number. Please enter another number.</string>
+
+    <string name="str_for_destinaltion_number_invalid_format">Destination number is  incorrec</string>
+
+    <string name="str_buy_data_for_other_not_actvie"> The subscriber is suspended status or has been Disable</string>
+    <string name="str_buy_data_for_other_fail">Apply Data Package is failed</string>
+    <string name="str_buy_data_for_other_not_start_in_correct_fomat">Please input  20 before the number</string>
+
+    <string name="sory_can_not_subscribe_for_number_status">Sory, can not subscribe for number status</string>
+    <string name="Sory_you_are_unable_to_apply_data_packgate_for_you_own_number_plesase_enter_another_number">Sory, can not subscribe for number status</string>
+
+    <string name="str_dealer_name">Dealer name</string>
+    <string name="str_dealer_id">dealer ID</string>
+    <string name="str_dealer_total_number_in_group">Dealer number in group</string>
+    <string name="sorry_you_are_not_ETL_dealer_member">Sorry, you are not ETL dealer member</string>
+    <string name="str_wallet_subaccount">Subaccount</string>
+    <string name="str_confirm_to_pay">You would like to pay</string>
+    <string name="str_please_enter_password_to_confirm">Please enter password to confirm</string>
+
+    <string name="str_type_of_number">Type of Number</string>
+    <string name="str_query">Query</string>
+
+
+    <string name="str_lucky_game">Lucky package data game</string>
+
+    <string name="str_wallet">Wallet</string>
+
+    <string name="str_total_score">Total score</string>
+    <string name="str_share_tato">Share Total</string>
+    <string name="str_total_people">Total people</string>
+    <string name="str_share">Share</string>
+    <string name="str_would_you_like_to_share_data">Would you like to share data</string>
+    <string name="str_mb_for">mb for</string>
+    <string name="str_people">people</string>
+    <string name="str_please_put">Please put</string>
+
+    <string name="str_lucky_types">Types</string>
+    <string name="str_identcal">Identcal</string>
+    <string name="str_dandom">Random</string>
+    <string name="str_refresh">Refresh</string>
+
+    <string name="str_generate_qr_code_msisdn">Generate QR code</string>
+    <string name="str_main_balance_wallet">Main balance</string>
+    <string name="str_sub_balance_wallet">Sub balance</string>
+    <string name="str_select_account_type_for_payment_wallet">Select account type for payment</string>
+    <string name="str_save_and_close">Save and close</string>
+    <string name="str_generate_qr_code">QR Code</string>
+    <string name="str_etl_payment">ETL Payment</string>
+    <string name="title_activity_qr_code">QrCodeActivity</string>
+    <string name="title_my_qre">My QR Code</string>
+    <string name="title_merchant_qre">Merchant QR</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>-->
+
+    <!-- Wallet 2021 -->
+    <string name="str_user_info">User info</string>
+    <string name="str_transfer">Transfer</string>
+    <string name="str_adsl_pay">ADSL payment</string>
+    <string name="str_pstn_pay">PSTN payment</string>
+    <string name="str_phone_pay">Phone payment</string>
+    <string name="str_history">History</string>
+    <string name="str_my_qr">My QR code</string>
+    <string name="str_qr_pay">QR pay</string>
+    <string name="str_change_pw">Change password</string>
+    <string name="str_setting">Setting</string>
+    <string name="str_chose_account">Choose an account</string>
+    <string name="str_internet_pay">Internet payment</string>
+    <string name="str_buy_package_data">Apply data package</string>
+    <string name="str_sms_setting">SMS setting</string>
+    <string name="str_test">Test</string>
+    <string name="when_doing_transaction">SMS Notification when doing transaction</string>
+    <string name="str_yes">Yes</string>
+    <string name="str_no">No</string>
+    <string name="str_would_you_like_to_save">Would you like to save ?.</string>
+    <string name="str_qr_code_is_invalid">QR code is invalid</string>
+    <string name="str_amount_paid">Paid amount</string>
+    <string name="str_description_transfer">Description</string>
+    <string name="str_buy_via_ussd">Buy via USSD</string>
+    <string name="str_dia">dia</string>
+    <string name="str_otp">OTP</string>
+    <string name="str_custom_price">Custom price</string>
+    <string name="str_please_enter_description">Please enter Description</string>
+    <string name="str_detail">Detail</string>
+    <string name="str_amount">Amount</string>
+    <string name="str_date">Date</string>
+    <string name="str_wallet_account">Wallet account</string>
+    <string name="str_wallet_account2">Wallet account:</string>
+    <string name="str_history_detail">History detail</string>
+    <string name="str_choose_from_gallery">Choose from gallery</string>
+    <string name="str_choose_image">Choose image</string>
+    <string name="str_sorry_this_image_could_not_be_scaned">Sorry, this image could not be scanned.</string>
+    <string name="str_notification">Notification</string>
+    <string name="str_notification_detail">Notification detail</string>
+    <string name="str_please_verify_your_fingerprint_to_login">Please verify your fingerprint to login</string>
+    <string name="str_your_account_number_is"> Your account number is</string>
+    <string name="str_status_readed">Readed</string>
+    <string name="str_status_unread">Unread</string>
+    <string name="str_take_photos">Take photos</string>
+    <string name="str_first_name">First Name</string>
+    <string name="str_last_name">Last Name</string>
+    <string name="str_date_of_birth">Date of birth</string>
+    <string name="str_sex">Gender</string>
+    <string name="str_male">Male</string>
+    <string name="str_female">Female</string>
+    <string name="str_occupation">Occupation</string>
+    <string name="str_dd_mm_yyyy">dd-MM-yyyy</string>
+    <string name="str_not_mandatory">Mandatory</string>
+    <string name="str_mandatory">Not mandatory</string>
+    <string name="str_select_date">Select date</string>
+    <string name="str_balance_info">Balance info</string>
+
+    <string name="str_would_you_like_to_get_otp">Would you like to Get OTP ?</string>
+    <string name="str_water_supply">Water supply</string>
+    <string name="str_electricity">Electricity</string>
+
+    <string name="str_coming_soon">This service will be coming soon</string>
+    <string name="str_enter_opt">Enter OTP code</string>
+    <string name="str_change_confirm_verify_code">Change Confirm Verify Type</string>
+    <string name="str_enter_password">Enter password</string>
+    <string name="str_destination_account">Destination account</string>
+    <string name="pls_enter_opt">Enter OTP code</string>
+    <string name="pls_enter_password">"Enter password  "</string>
+    <string name="change_password">Change password</string>
+
+    <string name="str_internet_id">Internet ID</string>
+    <string name="str_pstn_phone_number">PSTN phone number</string>
+
+    <string name="str_edit_profile_photo">Edit profile photo</string>
+    <string name="str_edit_profile_info">Edit profile photo and info</string>
+    <string name="str_edit_profile_name">Profile name</string>
+
+
+    <string name="str_edit_profile_photo_successful">Profile photo was successfully edited and you have to login again</string>
+    <string name="str_done">Done</string>
+    <string name="str_agent_cashin">Cash in approve</string>
+    <string name="str_agent_cashout">Cash out approve</string>
+    <string name="str_end_user">End user</string>
+    <string name="str_agent">Agent</string>
+    <string name="str_merchant">Merchant</string>
+
+    <string name="str_agent_history">History</string>
+    <string name="str_agent_history_title">History (agent)</string>
+    <string name="str_merchant_history">History</string>
+    <string name="str_merchant_history_title">History (Merchant)</string>
+    <string name="str_merchant_setting">Setting</string>
+    <string name="str_agent_setting">Setting</string>
+    <string name="str_select_branch">Select branch</string>
+    <string name="str_branch_name_vientiane_capital">Vientiane Capital</string>
+    <string name="str_branch_name_phongsaly">Phongsaly</string>
+    <string name="str_branch_name_luangnamtha">Luangnamtha</string>
+    <string name="str_branch_name_oudomxay">Oudomxay</string>
+    <string name="str_branch_name_bokeo">Bokeo</string>
+    <string name="str_branch_name_luangprabang">Luangprabang</string>
+    <string name="str_branch_name_huaphanh">Huaphanh</string>
+    <string name="str_branch_name_xayabury">Xayabury</string>
+    <string name="str_branch_name_xiengkhong">Xiengkhong</string>
+    <string name="str_branch_name_vientiane">Vientiane</string>
+    <string name="str_branch_name_borikhamxay">Borikhamxay</string>
+    <string name="str_branch_name_khammuane">Khammuane</string>
+    <string name="str_branch_name_savannakhet">Savannakhet</string>
+    <string name="str_branch_name_saravane">Saravane</string>
+    <string name="str_branch_name_sekong">Sekong</string>
+    <string name="str_branch_name_champasack">Champasack</string>
+    <string name="str_branch_name_attapeu">Attapeu</string>
+    <string name="str_please_enter">Please enter</string>
+    <string name="str_please_enter_amount">Please enter amount</string>
+    <string name="str_please_input">Please input</string>
+    <string name="str_branch">Branch</string>
+
+
+    <string name="str_you_would_like_to_delete">You would like to delete: </string>
+    <string name="str_code_electricity">Electricity Code</string>
+    <string name="str_code_water_supply">Water Code</string>
+    <string name="str_code_enter_electricity">Enter electricity Code</string>
+    <string name="str_code_enter_water_supply">Enter water Code</string>
+
+    <string name="str_paid">Paid</string>
+    <string name="str_you_have_successful_paid_for_the_electricity">You have successful paid for the Electricity</string>
+    <string name="str_you_have_successful_paid_for_the">You have successful paid for the</string>
+    <string name="str_you_have_successful_paid_for_the_water_supply">You have successful paid for the Mampapa</string>
+    <string name="str_you_have_successful_for_send_request_cash_in">You have successful for sent request cash in</string>
+    <string name="str_you_have_successful_for_send_request_cash_out">You have successful for sent request cash out</string>
+    <string name="str_you_have_successful_for_cash_in_to_end_user">You have successful for cash in to end user</string>
+    <string name="str_you_have_successful_for_cash_out_to_end_user">You have successful for cash out to end user</string>
+
+    <string name="str_please_enter_verify_code">Please enter verify code</string>
+    <string name="str_debit2">Debit</string>
+    <string name="str_code">Code</string>
+    <string name="str_advance2">Advance</string>
+    <string name="str_branch_color">f36523|2e3290|ec1d26|0156a7|eb1a41|0072bb|ed145b|0090d3|ec0a72|01aff1|ed018c|02abc3|bd1b8b|01a99c|91278f|02a776|662d90</string>
+    <string name="str_branch_str">NL|VT|LT|BK|OX|LB|XL|HP|XK|BX|KM|SN|CS|SV|SK|AP</string>
+
+    <string name="str_you_would_like_to_pay_for_this_electricity">You would like to pay for this electricity?</string>
+
+    <string name="str_you_would_like_to_pay_for_this_water_supply">You would like to pay for this Nampapa?</string>
+    <string name="str_you_would_like_to_sent_request_cash_in">You would like to send request for cash in?</string>
+    <string name="str_you_would_like_to_sent_request_cash_out">You would like to send request for cash out?</string>
+    <string name="str_you_would_like_to_cash_out_for_this_end_user">You would like to cash out for this end user?</string>
+
+    <string name="str_enduser_cashin">Cash in request</string>
+    <string name="str_enduser_cashout">Cash out request</string>
+
+    <string name="str_code_enduser_cashout">Wallet number</string>
+    <string name="str_code_enduser_cashin">Wallet number</string>
+    <string name="str_code_submit_request">Submit request</string>
+    <string name="str_request_type">Request type</string>
+    <string name="str_cash_in_code">Code</string>
+    <string name="str_cash_in_qr_code">QR code</string>
+    <string name="str_qr_type">QR code type</string>
+    <string name="str_build_price">Build price</string>
+    <string name="str_new_price">New price</string>
+    <string name="str_custom_amount">Custom amount</string>
+    <string name="str_enter_amount">Enter amount</string>
+    <string name="str_cash_in_code_query">Cash in code</string>
+    <string name="str_cash_out_code_query">Cash out code</string>
+    <string name="str_enter_cash_in_code">Enter cash in code</string>
+    <string name="str_Enter_cash_in_code">Enter cash in code</string>
+    <string name="str_agent_cash_in_approve">Agent cash in approve</string>
+    <string name="str_agent_cash_out_approve">Agent cash out approve</string>
+    <string name="str_customer_mobile_numbere">Customer mobile number</string>
+    <string name="str_fee_amount">Fee amount</string>
+    <string name="str_merchant_balanceinfo">Merchant balance</string>
+    <string name="str_agent_balanceinfo">Agent balance</string>
+    <string name="str_wallet_number">Wallet number</string>
+    <string name="str_merchant_qr">Merchant QR</string>
+    <string name="str_use_finger">Use finger</string>
+    <string name="str_countdown">Countdown</string>
+    <string name="str_register_agent">Register agent</string>
+    <string name="str_register_merchant">Register merchant</string>
+    <string name="str_location">Location</string>
+
+    <string name="str_agent_name">Agent name</string>
+    <string name="str_merchant_name">Merchant name</string>
+    <string name="str_latitude">Latitude:</string>
+    <string name="str_longitude">Longtitude:</string>
+    <string name="str_active">Active</string>
+    <string name="str_no_subscriber">No subscriber</string>
+
+    <string name="str_pending">Pending</string>
+    <string name="str_register_successful">Register successful</string>
+    <string name="str_update_successful">Update successful</string>
+    <string name="str_save_and_edit">Save and edit</string>
+    <string name="str_promotion">Promotion</string>
+    <string name="str_promotion_detail">Promotion detail</string>
+    <string name="str_create_advertising">Create advertising</string>
+    <string name="str_create">Create</string>
+    <string name="str_select">Select</string>
+    <string name="str_register_via_kyc">Register via KYC</string>
+    <string name="str_register_via_e2Pay">Register</string>
+    <string name="str_query_from_kyc">Query from KYC</string>
+    <string name="str_kyc_id">KYC ID</string>
+    <string name="str_register_via_e2pay_or_kyc">Register via e2Pay or KYC</string>
+    <string name="str_show_more">Show more</string>
+    <string name="str_merchant_show_more">Show more</string>
+    <string name="str_agent_show_more">Show more</string>
+    <string name="str_quality">Quality:</string>
+    <string name="str_image6x4">Image: 6x4</string>
+    <string name="str_open">Open</string>
+    <string name="str_distance">distance</string>
+    <string name="str_km">km</string>
+    <string name="str_status">status</string>
+    <string name="str_show_basic">Show basic</string>
+    <string name="str_agent_show_basic">Show basic</string>
+    <string name="str_merchant_show_basic">Show basic</string>
+    <string name="str_e2pay">e2Pay</string>
+    <string name="str_bank">Bank</string>
+    <string name="str_choose_cash_in">Choose cash in</string>
+    <string name="str_choose_cash_out">Choose cash out</string>
+    <string name="str_accept">Accept</string>
+    <string name="str_decline">Decline</string>
+    <string name="str_privacy_policy">Privacy policy</string>
+    <string name="str_agent_approve_cashout_of_merchant">Cashout merchant</string>
+    <string name="str_agent_approve_cashout_of_merchant_title">Approve cashout merchant</string>
+    <string name="str_merchant_cashout_request">Cashout request</string>
+    <string name="str_merchant_transfer_to_enduser">Transfer to end user</string>
+    <string name="str_you_have_successful_for_cash_out_to_merchant">You have successful for cash out to merchant</string>
+    <string name="str_enter_description">Enter description</string>
+    <string name="str_you_would_like_to_trasfer_to_end_user">you would like to transfer to end user</string>
+    <string name="str_have_successful_transfer_to_the_end_user">You have successful transfer to the end user</string>
+
+    <string name="str_modifiy_code">Verify  code</string>
+    <string name="str_reset_password">Reset password</string>
+
+</resources>

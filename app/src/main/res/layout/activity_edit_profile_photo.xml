@@ -1,0 +1,103 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <LinearLayout
+            android:gravity="center"
+            android:id="@+id/linear1"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txtProfileName"
+                android:layout_marginTop="@dimen/margin_xxlarge"
+                android:layout_marginBottom="@dimen/margin_small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_edit_profile_name"
+
+                android:textSize="@dimen/text_size_khem" />
+
+            <androidx.cardview.widget.CardView
+                app:cardElevation="0dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/imgTakePhotos"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/text_border_stype"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/profile" />
+            </androidx.cardview.widget.CardView>
+            <!--                android:onClick="onClickTakePhotos"-->
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+                <Button
+                    android:layout_width="@dimen/button_width_small"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:textAllCaps="false"
+                    android:id="@+id/btnTakePhotos"
+                    android:layout_gravity="center"
+                    android:textColor="@color/color_blue_facebook"
+                    android:text="@string/str_take_photos" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/linear2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+                <RadioGroup
+                    android:id="@+id/radioSex"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+                    <LinearLayout
+                        android:id="@+id/linear79"
+                        android:layout_width="351dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" >
+                    </LinearLayout>
+                </RadioGroup>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/linear3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+                <Button
+                    android:layout_marginTop="@dimen/margin_normall"
+                    android:layout_width="@dimen/button_width_large"
+                    android:gravity="center"
+                    android:layout_height="@dimen/layout_height_normall"
+                    android:textSize="@dimen/text_size_small"
+                    android:background="@drawable/button_stye_v1"
+                    android:textAllCaps="false"
+                    android:id="@+id/btnEditProFilePhoto"
+                    android:layout_gravity="center"
+                    android:textColor="@color/color_white"
+                    android:layout_weight="1"
+                    android:text="@string/str_done" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

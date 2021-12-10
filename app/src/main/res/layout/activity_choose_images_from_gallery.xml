@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_marginRight="@dimen/margin_xxlarge"
+        android:layout_marginLeft="@dimen/margin_xxlarge"
+        android:layout_marginTop="@dimen/margin_xxlarge"
+        android:layout_marginBottom="@dimen/margin_xxlarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+        <androidx.cardview.widget.CardView
+            app:cardElevation="0dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+
+                android:id="@+id/imageViewGallery"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:maxWidth="300dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/image" />
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:layout_marginBottom="@dimen/margin_normall"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_image6x4"
+            android:textSize="@dimen/text_size_khem" />
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_quality"
+                android:textSize="@dimen/text_size_khem" />
+            <EditText
+                android:inputType="number"
+                android:layout_marginLeft="@dimen/margin_small"
+                android:layout_weight="1"
+                android:maxLength="2"
+                android:id="@+id/txtQuality"
+                android:gravity="center"
+                android:background="@drawable/text_border_stype"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="50"
+                android:textSize="@dimen/text_size_khem" />
+            <TextView
+                android:layout_marginLeft="@dimen/margin_small"
+                android:layout_weight="3"
+                android:id="@+id/txtLength"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_quality"
+                android:textSize="@dimen/text_size_khem" />
+            <ImageView
+                android:layout_marginRight="@dimen/margin_normall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_stype_for_refresh"
+                android:onClick="onClickRefreshQualityOfImage"
+                android:src="@drawable/ic_refresh_white"
+                android:text="Sonexay VNNAKHONE" />
+        </LinearLayout>
+
+        <Button
+
+
+            android:shadowDx="1"
+            android:shadowDy="2"
+            android:shadowRadius="1"
+            android:shadowColor="#000000"
+            android:textColor="@color/colorRed"
+            android:background="@drawable/button_choose_stye"
+            android:id="@+id/btnChooseFromGallery"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_normall"
+            android:layout_marginBottom="@dimen/margin_normall"
+            android:paddingLeft="@dimen/margin_normall"
+            android:paddingRight="@dimen/margin_normall"
+            android:text="@string/str_choose_from_gallery"
+            android:textSize="@dimen/text_size_khem" />
+
+        <View
+
+            android:layout_width="match_parent"
+            android:layout_height="1dp">
+
+        </View>
+
+        <Button
+
+            android:id="@+id/btnOk"
+            android:background="@drawable/button_stye_v1"
+            android:textAllCaps="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_normall"
+            android:textColor="@color/color_white"
+            android:text="Ok"
+            android:textSize="@dimen/text_size_khem" />
+    </LinearLayout>
+</RelativeLayout>

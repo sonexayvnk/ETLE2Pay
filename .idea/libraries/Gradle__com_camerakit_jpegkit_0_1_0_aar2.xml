@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: com.camerakit:jpegkit:0.1.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7948108aa75033debf749737c7c54240/jetified-jpegkit-0.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7948108aa75033debf749737c7c54240/jetified-jpegkit-0.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7948108aa75033debf749737c7c54240/jetified-jpegkit-0.1.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6c1492644e8b14b1f0c8e796b9d29ebd/jetified-jpegkit-0.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6c1492644e8b14b1f0c8e796b9d29ebd/jetified-jpegkit-0.1.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6c1492644e8b14b1f0c8e796b9d29ebd/jetified-jpegkit-0.1.0/res" />
+      <root url="file://$USER_HOME$/Library/Android/sdk/caches/transforms-2/files-2.1/5457d4d033924dde64efca30e9422a9a/jetified-jpegkit-0.1.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/Library/Android/sdk/caches/transforms-2/files-2.1/5457d4d033924dde64efca30e9422a9a/jetified-jpegkit-0.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/Library/Android/sdk/caches/transforms-2/files-2.1/5457d4d033924dde64efca30e9422a9a/jetified-jpegkit-0.1.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

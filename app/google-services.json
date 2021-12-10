@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "446404065528",
+    "firebase_url": "https://ewalletlao.firebaseio.com",
+    "project_id": "ewalletlao",
+    "storage_bucket": "ewalletlao.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:446404065528:android:79bb760148c3588e94e30d",
+        "android_client_info": {
+          "package_name": "com.etl.money"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "446404065528-ejdcqldp53itgbhccpfaai6gls6acqk1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGKdvprbOAtR0yQCtRtmRSmo09cJi0018"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "446404065528-ejdcqldp53itgbhccpfaai6gls6acqk1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

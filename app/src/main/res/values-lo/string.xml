@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ETL Pay</string>
+    <string name="str_scan_qr_code">"ສະແກນ QR "</string>
+    <string name="str_amount_paid">ຈຳນວນເງິນ</string>
+    <string name="str_qr_code_is_invalid">QR Code ບໍ່ຖືກຕ້ອງ</string>
+    <string name="str_would_you_like_to_save">ທ່ານຕ້ອງການບັນທຶກບໍ່ ?</string>
+    <string name="when_doing_transaction">ແຈ້ງທາງຂໍ້ຄວາມ ເວລາເຮັດທຸລະກຳ</string>
+    <string name="str_sms_setting">ຕັ້ງຄ່າ</string>
+    <string name="str_buy_package_data">ຊື້ແພັກເກັດ ດາຕ້າ</string>
+    <string name="str_internet_pay">ຈ່າຍຄ່າ ອິນເຕີເນັດ</string>
+    <string name="str_chose_account">ເລືອກປະເພດ ບັນຊີ</string>
+    <string name="str_setting">ຕັ້ງຄ່າ</string>
+    <string name="str_change_pw">ປ່ຽນລະຫັດຜ່ານ</string>
+    <string name="str_my_qr">QR ຂອງຂ້ອຍ</string>
+    <string name="login_button">ເຂົ້າລະບົບ</string>
+    <string name="register_char">ລົງທະບຽນ</string>
+    <string name="remember_me">ຈື່ເບີ</string>
+    <string name="pass_hint">ລະຫັດຜ່ານ</string>
+    <string name="login_title">ເຂົ້າລະບົບ</string>
+    <string name="str_qr_pay">ຈ່າຍ QR</string>
+
+
+    <string name="radio_male">ຍິງ</string>
+    <string name="radio_female">ຊາຍ</string>
+    <string name="job_title">ອາຊີບ</string>
+    <string name="txt_village">ບ້ານ</string>
+    <string name="txt_district">ເມືອງ</string>
+    <string name="contact_number">ເບີຕິດຕໍ່</string>
+    <string name="b_register">ລົງທະບຽນ</string>
+    <string name="txt_birth_date">ວັນເດືອນປີເກີດ</string>
+    <string name="birth_date_str">ວັນເດືອນປີເກີດ</string>
+
+
+    <string name="title_activity_user_info">ຂໍ້ມູນຜູ້ໃຊ້</string>
+    <string name="str_user_info_tel">ເບີໂທ:</string>
+    <string name="str_user_info_name">ຊື່:</string>
+    <string name="str_user_info_sure_name">ນາມສະກຸນ:</string>
+    <string name="str_have">ມີ</string>
+    <string name="str_kips">ກີບ</string>
+    <string name="str_user_info_date_birth">ວດປ ເກີດ: </string>
+    <string name="str_user_info_address">ທີ່ຢູ່:</string>
+    <string name="str_user_info_district">ເມືອງ:</string>
+    <string name="str_user_info_province">ແຂວງ:</string>
+    <string name="str_customer_name">ຊື່ຜູ້ໃຊ້</string>
+    <string name="str_user_name">ບັນຊີຜູ້ໃຊ້</string>
+
+
+    <string name="str_water_supply">ນຳ້ປະປາ</string>
+    <string name="str_electricity">ໄຟຟ້າ</string>
+    <string name="str_coming_soon">ຂໍອະໄພ ບໍລິການນີ້ ຍັງບໍທັນເປີດນຳໃຊ້, ຈະເປີດນຳໃຊ້ໄວໆນີ້</string>
+    <string name="str_enter_opt">ໃສ່ລະຫັດ OPT</string>
+    <string name="str_change_confirm_verify_code">ປ່ຽນລະຫັດ OTP</string>
+    <string name="str_enter_password">ໃສ່ລະຫັດຜ່ານ</string>
+    <string name="str_destination_account">ບັນຊີປາຍທາງ</string>
+    <string name="pls_enter_opt">ໃສ່ລະຫັດ OTP</string>
+    <string name="pls_enter_password">"ໃສ່ລະຫັດຜ່ານ"</string>
+    <string name="str_description_transfer">ລາຍລະອຽດການໂອນ</string>
+    <string name="str_transfer_balance_amt_hin">ຈຳນວນເງິນທີ່ຈະໂອນ</string>
+
+    <string name="str_main_balance_wallet">ເງິນກະເປົາຫລັກ</string>
+    <string name="str_sub_balance_wallet">ເງິນກະເປັາສຳຮອງ</string>
+    <string name="str_kip">ກີບ</string>
+    <string name="change_password">Change password</string>
+
+    <string name="str_customer_id">ໄອດີ ລູກຄ້າ</string>
+
+    <string name="str_internet_id"> ໄອດີ ອິນເຕີເນັດ</string>
+    <string name="str_pstn_phone_number">ເບີໂທລະສັບຕັ້ງໂຕະ</string>
+    <string name="str_enter_payment_amount">ຈຳນວນເງິນທີ່ຕ້ອງການຈ່າຍ</string>
+    <string name="str_name">ຊື່</string>
+    <string name="str_toltal_balance_advance">ຈ່ານເກີນ</string>
+    <string name="str_internet_adsl_balance_hin">ໜີ້ຄ້າງຈ່າຍ</string>
+    <string name="str_adv_adsl">ຈ່າຍເກີນ</string>
+    <string name="str_advance">ຈ່າຍເກີນ:</string>
+    <string name="str_advance_balance">ຈ່າຍເກີນ:</string>
+    <string name="str_confirm_to_exit">ທ່ານຕ້ອງການອອກຈາກລະບົບແທ້ບໍ່ ?</string>
+    <string name="str_would_you_like_to_get_otp">ທ່ານຕ້ອງການຮັບລະຫັດ OTP ແທ້ບໍ່ ?</string>
+
+
+    <string name="str_transfer_wallet">ໂອນເງິນ</string>
+    <string name="str_transfer">ໂອນເງິນ</string>
+
+    <string name="str_adsl_pay">ຈ່າຍບິນ ອິນເຕີເນັດ</string>
+    <string name="str_pstn_pay">ຈ່າຍບິນຕັ້ງໂຕະ</string>
+    <string name="str_phone_pay">ຕື່ມເງິນ</string>
+    <string name="str_history">ປະຫວັດການເຄື່ອງໄຫວ</string>
+
+    <string name="txt_msdn_nifo">ຂໍມູນເບີ</string>
+    <string name="str_process_lot">ລົງທະບຽນ ຫຼື ຍົກເລີກ</string>
+    <string name="str_type_of_subscriber">ປະເພດເບີ</string>
+    <string name="str_postpaid">ເບີລາຍເດືອນ</string>
+    <string name="str_prepaid">ເບີຕື່ມເງິນ</string>
+    <string name="str_balance">ຈຳນວນເງິນ</string>
+    <string name="str_debit">ໜີ້:</string>
+    <string name="title_activity_about_app">ກ່ຽວກັບແອັບ</string>
+    <string name="register_la">ລົງທະບຽນ</string>
+    <string name="str_guest_user_la">ຜູ້ໃຊ້ທົ່ວໄປ</string>
+
+
+    <string name="guest_user">ຜູ້ໃຊ້ທົ່ວໄປ</string>
+    <string name="str_register">ລົງທະບຽນ</string>
+    <string name="str_cancel">ຍົກເລີກ</string>
+    <string name="str_about_app">ກ່ຽວກັບແອັບ</string>
+    <string name="str_guest_user">ຜູ້ໃຊ້ທົ່ວໄປ</string>
+
+    <string name="str_loading">ກະລຸນາລໍຖ້າ, ກຳລັງດຳເນີນການ…</string>
+    <string name="str_pleasewait_inprocess">ກະລຸນາລໍຖ້າ, ກຳລັງດຳເນີນການ…</string>
+
+    <string name="str_branch_name_vientiane_capital">ນະຄອນຫຼວງວຽງຈັນ</string>
+    <string name="str_branch_name_phongsaly">ຜົ້ງສາລີ</string>
+    <string name="str_branch_name_luangnamtha">ຫຼວງນ້ຳທາ</string>
+    <string name="str_branch_name_oudomxay">ອຸດົມໄຊ</string>
+    <string name="str_branch_name_bokeo">ບໍ່ແກ້ວ</string>
+    <string name="str_branch_name_luangprabang">ຫຼວງພະບາງ</string>
+    <string name="str_branch_name_huaphanh">ຫົວພັນ</string>
+    <string name="str_branch_name_xayabury">ໄຊຍະບູລລີ</string>
+    <string name="str_branch_name_xiengkhong">ຊຽງຂວາງ</string>
+    <string name="str_branch_name_vientiane">ວຽງຈັນ</string>
+    <string name="str_branch_name_borikhamxay">ບໍລິຄຳໄຊ</string>
+    <string name="str_branch_name_khammuane">ຄໍາມ່ວນ</string>
+    <string name="str_branch_name_savannakhet">ສະຫວັນນະເຂດ</string>
+    <string name="str_branch_name_saravane">ສາລະວັນ</string>
+    <string name="str_branch_name_sekong">ເຊກອງ</string>
+    <string name="str_branch_name_champasack">ຈໍາປາສັກ</string>
+    <string name="str_branch_name_attapeu">ອັດຕະປື</string>
+
+
+    <string name="str_open">ເປີດ</string>
+    <string name="str_distance">ໄລຍະທາງ</string>
+    <string name="str_km">ກມ</string>
+    <string name="str_status">ສະຖານະ</string>
+    <string name="str_close">ປິດ</string>
+
+</resources>

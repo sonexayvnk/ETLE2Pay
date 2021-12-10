@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="#C0C0C0"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:background="@drawable/customborder"
+            android:layout_marginLeft="@dimen/margin_normall"
+            android:layout_marginRight="@dimen/margin_normall"
+            android:layout_marginTop="@dimen/margin_normall"
+            android:layout_marginBottom="@dimen/margin_normall"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:background="@drawable/customborder3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_marginRight="@dimen/margin_xsmall"
+                    android:layout_width="@dimen/text_higth_xlarg"
+                    android:layout_height="@dimen/text_higth_xlarg"
+                    android:background="@mipmap/icon_close"
+                    android:onClick="onClickClose"
+                    android:src="@mipmap/icon_close"
+                    android:text="Sonexay VNNAKHONE" />
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginRight="@dimen/margin_large"
+            android:layout_marginLeft="@dimen/margin_large"
+            android:gravity="left"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:orientation="horizontal">
+            <ScrollView
+                android:id="@+id/ScrollView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:orientation="vertical">
+                    <TextView
+                        android:gravity="center"
+                        android:textColor="@color/color_header_footer"
+                        android:textStyle="bold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Privacy policy of e2Pay"
+                        android:textAlignment="center"
+                        android:textSize="25sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="We respects the privacy of our users. This Privacy Policy explains how we "
+                        android:textSize="18sp" />
+                    <TextView
+                        android:gravity="left"
+                        android:textColor="@color/color_black"
+                        android:textStyle="bold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="COLLECTION OF YOUR INFORMATION"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="We may collect information about you in a variety of ways. The information we may collect via
+the Application depends on the content and materials you use, and includes: "
+                        android:textSize="18sp" />
+                    <TextView
+                        android:textColor="@color/color_black"
+                        android:textStyle="bold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Personal Data"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Demographic and other personally identifiable information (such as your name and email
+address) that you voluntarily give to us when choosing to participate in various activities related
+to the Application, such as chat, posting messages in comment sections or in our forums, liking
+posts, sending feedback, and responding to surveys. If you choose to share data about yourself
+via your profile, online chat, or other interactive areas of the Application, please be advised that
+all data you disclose in these areas is public and your data will be accessible to anyone who
+accesses the Application."
+                        android:textSize="18sp" />
+                    <TextView
+                        android:textColor="@color/color_black"
+                        android:textStyle="bold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Derivative Data"
+
+                        android:textSize="18sp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Information our servers automatically collect when you access the Application, such as your
+native actions that are integral to the Application, including liking, re-blogging, or replying to a
+post, as well as other interactions with the Application and other users via server log files.
+"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+            </ScrollView>
+        </LinearLayout>
+
+            <LinearLayout
+                android:background="@drawable/customborder2"
+                android:layout_marginRight="@dimen/margin_xsmall"
+                android:layout_marginBottom="@dimen/margin_xsmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+        <LinearLayout
+
+            android:layout_marginLeft="@dimen/margin_xlarge"
+            android:layout_marginRight="@dimen/margin_xlarge"
+            android:layout_marginBottom="@dimen/margin_xlarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <CheckBox android:id="@+id/chAgree1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Read and understood"
+                />
+            <CheckBox android:id="@+id/chAgree2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I accept the terms and conditions"
+        />
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            <Button
+                android:background="@drawable/button_stye_v1"
+
+
+                android:textColor="@drawable/text_color_selector"
+                android:onClick="onClickDisagree"
+                android:textAllCaps="false"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:layout_marginRight="@dimen/margin_xsmall"
+                android:text="@string/str_decline" />
+            <Button
+                android:layout_marginLeft="@dimen/margin_xsmall"
+                android:background="@drawable/button_stye_v1"
+                android:textColor="@drawable/text_color_selector"
+                android:id="@+id/btnAgree"
+                android:textAllCaps="false"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:onClick="onClickAgree"
+                android:text="@string/str_accept" />
+
+        </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/color_header_footer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_marginLeft="@dimen/margin_xlarge"
+        android:layout_marginTop="@dimen/margin_xlarge"
+        android:layout_marginRight="@dimen/margin_xlarge"
+
+        android:background="@drawable/promotion_layout_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:textColor="@color/color_header_footer"
+
+            android:enabled="false"
+            android:id="@+id/txtDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:inputType="textMultiLine"
+            android:paddingLeft="@dimen/margin_xlarge"
+            android:scrollHorizontally="false"
+            android:text="Description"
+            android:textSize="@dimen/text_size_xlarge" />
+        <View
+android:layout_marginLeft="@dimen/margin_large"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+
+            android:background="@drawable/wallet_line_style_height"  />
+        <TextView
+            android:textColor="@color/color_header_footer"
+            android:enabled="false"
+            android:id="@+id/txtDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:inputType="textMultiLine"
+            android:paddingLeft="@dimen/margin_xlarge"
+            android:scrollHorizontally="false"
+            android:text="Detail"
+            android:textSize="@dimen/text_size_small" />
+        <ImageView
+
+            android:id="@+id/imgBase64"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="@dimen/margin_normall"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="@dimen/margin_normall"
+            android:adjustViewBounds="true"
+            android:src="@drawable/promosio_no_image" />
+        <TextView
+            android:textColor="@color/counter_black_gray"
+            android:enabled="false"
+            android:id="@+id/txtInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:inputType="textMultiLine"
+            android:paddingLeft="@dimen/margin_large"
+            android:scrollHorizontally="false"
+            android:text="Info"
+            android:textSize="@dimen/text_size_xsmall" />
+        <View
+            android:layout_marginBottom="@dimen/margin_normall"
+            android:layout_marginLeft="@dimen/margin_large"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/wallet_line_style_height"  />
+    </LinearLayout>
+
+</RelativeLayout>

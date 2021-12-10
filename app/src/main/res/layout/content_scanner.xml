@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".config.ScannerActivity"
+
+    tools:showIn="@layout/activity_scanner">
+
+    <!--  set custom layout for scanner-->
+    <com.journeyapps.barcodescanner.DecoratedBarcodeView
+        android:id="@+id/zxing_barcode_scanner"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:zxing_scanner_layout="@layout/custom_scanner" >
+
+    </com.journeyapps.barcodescanner.DecoratedBarcodeView>
+    <!--  FlashLight Button-->
+
+
+
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="@dimen/margin_normall"
+        android:layout_marginBottom="@dimen/margin_normall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_marginBottom="@dimen/margin_xxlarge"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <Button
+                android:shadowDx="1"
+                android:shadowDy="2"
+                android:shadowRadius="1"
+                android:shadowColor="#000000"
+                android:textColor="@color/colorRed"
+                android:background="@drawable/button_choose_stye"
+                android:id="@+id/btnChooseFromGallery"
+                android:layout_gravity="center"
+                android:textAllCaps="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="@string/str_choose_from_gallery"
+                android:paddingLeft="@dimen/margin_normall"
+                android:paddingRight="@dimen/margin_normall"
+                android:textSize="@dimen/text_size_khem" />
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_gravity="center"
+                android:id="@+id/switch_on_flashlight"
+                android:layout_width="@dimen/layout_height"
+                android:layout_height="@dimen/layout_height"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/turn_on_lashlight" />
+            <Button
+
+                android:layout_gravity="center"
+                android:id="@+id/switch_off_flashlight"
+                android:layout_width="@dimen/layout_height"
+                android:layout_height="@dimen/layout_height"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/turn_off_lashlight" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_gravity="center"
+                android:textSize="@dimen/text_size_khem"
+                android:textColor="@color/color_white"
+                android:labelFor="@+id/switch_on_flashlight"
+                android:id="@+id/txt_switch_flashlight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="@string/str_turn_on_flashlight" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

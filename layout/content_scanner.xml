@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ScannerActivity"
+
+    tools:showIn="@layout/activity_scanner">
+
+    <!--  set custom layout for scanner-->
+    <com.journeyapps.barcodescanner.DecoratedBarcodeView
+        android:id="@+id/zxing_barcode_scanner"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:zxing_scanner_layout="@layout/custom_scanner" >
+
+    </com.journeyapps.barcodescanner.DecoratedBarcodeView>
+    <!--  FlashLight Button-->
+
+
+    <Button
+        android:id="@+id/switch_on_flashlight"
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="45dp"
+        android:background="@drawable/turn_on_lashlight"
+       />
+
+    <Button
+        android:id="@+id/switch_off_flashlight"
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="45dp"
+        android:background="@drawable/turn_off_lashlight"
+        />
+
+    <TextView
+
+        android:textSize="@dimen/text_size_khem"
+        android:textColor="@color/color_white"
+        android:layout_marginBottom="15dp"
+        android:labelFor="@+id/switch_on_flashlight"
+        android:id="@+id/txt_switch_flashlight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/str_turn_on_flashlight" />
+
+
+
+</RelativeLayout>

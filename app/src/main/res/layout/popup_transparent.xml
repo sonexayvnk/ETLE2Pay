@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="10dip"
+android:background="@color/color_blue_facebook"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:background="@color/colorGray"
+        android:id="@+id/popup"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#2196F3"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:text="ຄົ້ນຫາ  ແລະ ເລືອກປະເພດ" />
+        <View
+
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:background="#6B6F6E" />/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_span="1"
+                android:gravity="right"
+                android:paddingLeft="5dp"
+                android:text="ຄົ້ນຫາ:"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+            <EditText
+                android:id="@+id/txtSearch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:hint="Search" />
+
+        </LinearLayout>
+
+
+
+
+        <View
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:background="#6B6F6E" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_span="1"
+
+                android:paddingLeft="5dp"
+                android:gravity="right"
+                android:text="ປະເພດ:"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+            <Spinner
+                android:id="@+id/spnFoodType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:spinnerMode="dialog"
+                ></Spinner>
+        </LinearLayout>
+        <View
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:background="#6B6F6E" />
+
+
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="77dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/btnClose"
+
+                android:layout_width="121dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_span="1"
+
+                android:gravity="center"
+                android:text="ຍົກເລີກ"
+
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <Button
+
+
+
+                android:id="@+id/btnOk"
+                android:layout_width="129dp"
+                android:layout_height="wrap_content"
+
+                android:layout_span="1"
+
+                android:gravity="center"
+                android:text="ຕົກລົງ"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

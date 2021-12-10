@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="false">
+            <LinearLayout
+                android:id="@+id/LinearLayout1"
+                android:layout_marginTop="@dimen/margin_xsmall"
+                android:layout_marginBottom="@dimen/margin_xsmall"
+                android:layout_marginLeft="@dimen/margin_normall"
+                android:layout_marginRight="@dimen/margin_normall"
+                android:background="@drawable/layout_style"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_marginTop="@dimen/margin_xxsmall"
+                    android:layout_marginBottom="@dimen/margin_xxsmall"
+                    android:layout_marginLeft="@dimen/margin_xxsmall"
+                    android:layout_marginRight="@dimen/margin_xxsmall"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="top" >
+                    <androidx.cardview.widget.CardView
+                        android:layout_marginTop="@dimen/margin_xxsmall"
+                        android:layout_marginBottom="@dimen/margin_xxsmall"
+                        android:layout_marginLeft="@dimen/margin_xxsmall"
+                        android:layout_marginRight="@dimen/margin_xxsmall"
+                        app:cardElevation="0dp"
+                        android:layout_weight="5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+
+                            android:id="@+id/imgItem"
+                            android:background="@drawable/state_focused_color"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:maxWidth="300dp"
+                            android:adjustViewBounds="true"
+                            android:src="@drawable/standard" />
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+
+                        app:cardElevation="0dp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:layout_marginLeft="@dimen/margin_normall"
+                            android:layout_marginTop="@dimen/margin_small"
+                            android:gravity="left|top"
+                            android:layout_weight="1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/txtTitele"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.3"
+                                android:text="Titel"
+                                android:gravity="left"
+                                android:textColor="@color/color_black"
+                                android:textSize="@dimen/text_size_dashboar"
+                                android:textStyle="bold" />
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/margin_xxsmall" />
+
+                            <TextView
+                                android:id="@+id/txtDescrip"
+                                android:layout_weight="1.3"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="left"
+                                android:text="description"
+                                android:textColor="@color/color_black"
+                                android:textSize="@dimen/text_size_dashboar" />
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                </LinearLayout>
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
